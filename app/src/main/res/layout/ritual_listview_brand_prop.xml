@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView
+        android:orientation="vertical"
+        android:id="@+id/mcv_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fu2dp"
+        app:cardCornerRadius="@dimen/fu20dp"
+        style="@style/Widget.Material3.CardView.Filled">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ln_01"
+            android:paddingLeft="@dimen/fu8dp"
+            android:paddingTop="@dimen/fu4dp"
+            android:paddingRight="@dimen/fu4dp"
+            android:paddingBottom="@dimen/fu4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/fu10sp"
+                android:id="@+id/tv_01"
+                android:padding="@dimen/fu2dp"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"/>
+            <TextView
+                android:textSize="@dimen/fu10sp"
+                android:id="@+id/tv_02"
+                android:padding="@dimen/fu2dp"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

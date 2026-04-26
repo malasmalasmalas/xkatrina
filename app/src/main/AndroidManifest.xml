@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.software.leanback" android:required="false"/>
+
+    <permission
+        android:label="@string/termfu_run_command_permission_label"
+        android:icon="@mipmap/termfu_ic_launcher"
+        android:name="com.termfu.permission.RUN_COMMAND"
+        android:protectionLevel="dangerous"
+        android:description="@string/termfu_run_command_permission_description"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" tools:ignore="MockLocation,ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.fufufu.katrina.backup.XKatrinaApplication"
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCuyUv_PSmrgGKbXTftaL5yuqIwQp0yPtk"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <!-- Entry point: langsung masuk PermissionActivity, skip login -->
+        <activity
+            android:name="com.fufufu.katrina.backup.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:documentLaunchMode="intoExisting"
+            android:supportsPictureInPicture="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.KatrinaActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:theme="@style/AppThemeDark"
+            android:name="com.fufufu.katrina.backup.RitualResultActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:label="XKatrina Shortcut"
+            android:name="com.fufufu.katrina.backup.AddShortcutActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:documentLaunchMode="intoExisting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.PermissionActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:theme="@style/AppTheme.Light.NoActionBar.Translucent"
+            android:name="com.fufufu.katrina.backup.ShortcutExecutorActivity"
+            android:exported="true"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:documentLaunchMode="intoExisting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.SystemPropActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:documentLaunchMode="intoExisting"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.MaterialDebugActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.CstBackupActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.ScannerActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.ScanResultActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.AssistSettingActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:autoRemoveFromRecents="true"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"
+            android:label="Kill All"
+            android:name="com.fufufu.katrina.backup.KillActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboard"/>
+
+        <activity
+            android:label="Kill Setting"
+            android:name="com.fufufu.katrina.backup.AppListAll"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboard"/>
+
+        <activity
+            android:theme="@style/Theme.Material3.Light.Dialog.AlertBot"
+            android:label="SendBot"
+            android:name="com.fufufu.katrina.backup.DialogActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboard"/>
+
+        <activity
+            android:label="Wall"
+            android:name="com.fufufu.katrina.backup.WallActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboard"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.fufufu.eternal.backup.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+        <!-- Services -->
+        <service
+            android:label="Katrina Island Service"
+            android:name="com.fufufu.katrina.backup.KatrinaIslandService"
+            android:exported="true"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/katrina_service"/>
+        </service>
+
+        <service
+            android:label="Katrina Bubble Service"
+            android:name="com.fufufu.katrina.backup.FloatingExpandService"/>
+
+        <service android:name="com.fufufu.katrina.backup.ScreenMonitorService"/>
+
+        <service
+            android:name="com.fufufu.katrina.backup.AssistService"
+            android:permission="android.permission.BIND_VOICE_INTERACTION"
+            android:exported="false">
+            <meta-data
+                android:name="android.voice_interaction"
+                android:resource="@xml/assist_service"/>
+            <intent-filter>
+                <action android:name="android.service.voice.VoiceInteractionService"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.fufufu.katrina.backup.AssistSessionService"
+            android:permission="android.permission.BIND_VOICE_INTERACTION"/>
+
+        <meta-data android:name="android.max_aspect" android:value="10"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.samsung.android.multidisplay.keep_process_alive" android:value="true"/>
+
+        <!-- Termfu (embedded mini-termux) -->
+        <activity
+            android:label="@string/termfu_application_name"
+            android:name="com.termfu.app.TermuxActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible"
+            android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="com.termfu.HomeActivity"
+            android:targetActivity="com.termfu.app.TermuxActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:theme="@android:style/Theme.Material.Light.DarkActionBar"
+            android:label="@string/termfu_application_name"
+            android:name="com.termfu.app.TermuxHelpActivity"
+            android:exported="false"
+            android:parentActivityName="com.termfu.app.TermuxActivity"
+            android:resizeableActivity="true"/>
+
+        <activity
+            android:theme="@style/Theme.Termfu"
+            android:label="@string/termfu_application_name"
+            android:name="com.termfu.filepicker.TermuxFileReceiverActivity"
+            android:exported="true"
+            android:taskAffinity="com.termfu.filereceiver"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="message/*"/>
+                <data android:mimeType="multipart/*"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.termfu.filepicker.TermuxDocumentsProvider"
+            android:permission="android.permission.MANAGE_DOCUMENTS"
+            android:exported="true"
+            android:authorities="com.termfu.documents"
+            android:grantUriPermissions="true">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER"/>
+            </intent-filter>
+        </provider>
+
+        <service android:name="com.termfu.app.TermuxService" android:exported="false"/>
+
+        <service
+            android:name="com.termfu.app.RunCommandService"
+            android:permission="com.termfu.permission.RUN_COMMAND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.termfu.RUN_COMMAND"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.termfu.app.TermuxOpenReceiver"/>
+
+        <receiver
+            android:label="@string/termfu_shortcut_widget_name"
+            android:name="com.termfu.widget.TermuxWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/termfu_termux_appwidget_info"/>
+        </receiver>
+
+        <activity
+            android:theme="@android:style/Theme.Material.Light.DarkActionBar"
+            android:label="@string/termfu_single_shortcut_name"
+            android:icon="@drawable/termfu_ic_term_shortcut"
+            android:name="com.termfu.widget.TermuxCreateShortcutActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.termfu.widget.TermuxLaunchShortcutActivity"
+            android:exported="true"
+            android:noHistory="true"/>
+
+        <service
+            android:name="com.termfu.widget.TermuxWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.OnboardingActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|locale|layoutDirection"/>
+
+        <activity
+            android:name="com.fufufu.katrina.backup.FakeGpsActivity"
+            android:label="Fake GPS"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+
+        <service
+            android:name="com.fufufu.katrina.backup.FakeGpsService"
+            android:foregroundServiceType="location"
+            android:exported="false"/>
+
+    </application>
+</manifest>

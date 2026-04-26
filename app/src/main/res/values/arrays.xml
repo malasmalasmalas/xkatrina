@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner_filter_items">
+        <item>Show All Applications</item>
+        <item>Show Only Checked Apps</item>
+        <item>Show Only Unchecked Apps</item>
+    </array>
+</resources>

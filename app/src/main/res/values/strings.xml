@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_name">XKatrina 763</string>
+    <!-- Onboarding -->
+    <string name="onb_welcome_title">Selamat datang di XKatrina</string>
+    <string name="onb_welcome_subtitle">Toolkit untuk root: build.prop editor, ritual, fake GPS, shortcut, dan lainnya.</string>
+    <string name="onb_choose_language">Pilih bahasa</string>
+    <string name="onb_continue">Lanjutkan</string>
+    <string name="onb_module_warning">Beberapa fitur memerlukan module XKatrina (Magisk / KSU / APatch).</string>
+    <string name="onb_root_required">Akses root diperlukan untuk fitur tertentu.</string>
+
+    <!-- Agreement screen -->
+    <string name="agree_keyword">setuju</string>
+    <string name="agree_prompt">Ketik \"%1$s\" jika kamu menyetujui,</string>
+    <string name="agree_hint">Tidak setuju</string>
+    <string name="agree_button">Setuju</string>
+    <string name="agree_rejected">Anda belum diperbolehkan menggunakan aplikasi ini</string>
+
+    <!-- Module install -->
+    <string name="module_not_installed_title">Module belum terpasang</string>
+    <string name="module_not_installed_msg">Fitur \"%1$s\" memerlukan module XKatrina aktif di Magisk/KSU/APatch. Pasang sekarang?</string>
+    <string name="module_install">Install</string>
+    <string name="module_cancel">Batal</string>
+    <string name="module_reboot_title">Reboot diperlukan</string>
+    <string name="module_reboot_msg">Module berhasil dipasang. Reboot sekarang?</string>
+    <string name="module_reboot_yes">Reboot</string>
+    <string name="module_reboot_later">Nanti</string>
+    <string name="module_extract_failed">Gagal extract module dari assets</string>
+    <string name="module_install_success">Module terpasang. Silakan reboot.</string>
+    <string name="module_install_no_manager">Magisk/KSU/APatch tidak ditemukan</string>
+    <string name="module_install_failed">Gagal install: %1$s</string>
+    <string name="module_inactive_title">Module tidak aktif</string>
+    <string name="module_disabled_title">Module Disable</string>
+    <string name="module_disabled_msg">Aktifkan module XKatrina pada magisk module</string>
+    <string name="module_install_prompt">Tekan tombol di bawah untuk memasang module XKatrina secara otomatis. Matikan module pengubah merek lain agar tidak bentrok.</string>
+    <string name="module_install_button">Install Module</string>
+    <string name="module_installing">Memasang…</string>
+    <string name="module_install_done">Berhasil - Reboot</string>
+
+    <!-- Cleaning / Timepick -->
+    <string name="feature_cleaning">Cleaning / Timepick</string>
+    <string name="feature_buildprop">Build.prop Editor</string>
+    <string name="feature_xkatrina">XKatrina</string>
+    <string name="cleaning_title_running">Cleaning\nProses…</string>
+    <string name="cleaning_subtitle_mapping">Memetakan file dan cache</string>
+    <string name="cleaning_title_done">Selesai</string>
+    <string name="cleaning_subtitle_done">Berhasil membersihkan /data/*/* &amp;&amp; /storage/*/*</string>
+
+    <!-- Fake GPS -->
+    <string name="fakegps_title">Fake GPS</string>
+    <string name="fakegps_desc">Tap di peta untuk pindah lokasi. Aktifkan \'Select mock location app\' di Developer Options.</string>
+    <string name="fakegps_lat">Lat</string>
+    <string name="fakegps_lon">Lon</string>
+    <string name="fakegps_preset">Preset</string>
+    <string name="fakegps_dev_options">Dev Options</string>
+    <string name="fakegps_start">Start Fake GPS</string>
+    <string name="fakegps_stop">Stop Fake GPS</string>
+    <string name="fakegps_running_notif_title">Fake GPS aktif</string>
+    <string name="fakegps_notif_stop">Stop</string>
+    <string name="fakegps_pick_title">Pilih Lokasi</string>
+    <string name="fakegps_invalid_coord">Latitude / Longitude tidak valid</string>
+    <string name="fakegps_mock_disabled_title">Mock location belum aktif</string>
+    <string name="fakegps_mock_disabled_msg">Buka Developer Options -&gt; \'Select mock location app\' lalu pilih XKatrina.</string>
+    <string name="fakegps_open">Buka</string>
+    <string name="fakegps_dev_unavailable">Tidak dapat membuka Developer Options</string>
+
+    <!-- Common -->
+    <string name="common_ok">Oke</string>
+    <string name="common_retry">Ulangi</string>
+    <string name="toast_hard_random_success">Berhasil diacak (Hard Random)</string>
+    <string name="toast_prop_random_success">Berhasil diacak (Prop Random)</string>
+    <string name="toast_error_generic">Terjadi kesalahan</string>
+    <string name="toast_select_folder_first">Harap pilih folder</string>
+    <string name="toast_app_not_found">Aplikasi tidak ditemukan</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
+    <string name="bottomsheet_action_expand">Expand the bottom sheet</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="button_force_stop_it">Force-Stop It!</string>
+    <string name="button_go_settings">Go Setting</string>
+    <string name="button_refresh_list">Refresh List</string>
+    <string name="button_show_running_applications">Show Running Applications</string>
+    <string name="button_show_running_apps">Show Running Apps</string>
+    <string name="button_stop_all_apps">Stop All Apps</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_no_text_found">No text found or the app blocked Copy from accessing the screen.</string>
+    <string name="error_private_app">This app blocked Copy from accessing the text and screenshot.</string>
+    <string name="error_screenshot_failed">Sharing the screenshot failed.</string>
+    <string name="error_text_access_disabled">Text access is disabled in the assist settings.</string>
+    <string name="error_webview">Copy is unable to access this part of the screen.</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="firebase_database_url">https://xkatrina-fufufu-default-rtdb.firebaseio.com</string>
+    <string name="google_api_key">AIzaSyAjz8fUM_Acg9coUxpThCuXpxNgMla4nCY</string>
+    <string name="google_app_id">1:578245639073:android:a6dee779b326eae6cba9e0</string>
+    <string name="google_storage_bucket">xkatrina-fufufu.appspot.com</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="progressbar_inprogress">In progress...</string>
+    <string name="progressbar_pleasewait">Please wait</string>
+    <string name="project_id">xkatrina-fufufu</string>
+    <string name="search_menu_title">Search</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="searchview_clear_text_content_description">Clear text</string>
+    <string name="searchview_navigation_content_description">Back</string>
+    <string name="share_copied">\"%1$s\" copied.</string>
+    <string name="share_screenshot">Share Screenshot</string>
+    <string name="share_screenshot_progress">Sharing screenshot…</string>
+    <string name="share_title">Share \"%1$s\"</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab_system_apps">SYSTEM APPLICATIONS</string>
+    <string name="tab_user_apps">USER APPLICATIONS</string>
+    <string name="termfu_application_name">XTermod</string>
+    <string name="termfu_autofill_password">Autofill password</string>
+    <string name="termfu_bad_token_message">This shortcut has become invalid - remove and add again.</string>
+    <string name="termfu_bootstrap_error_abort">Abort</string>
+    <string name="termfu_bootstrap_error_body">XTermod was unable to install the bootstrap packages.</string>
+    <string name="termfu_bootstrap_error_not_primary_user_message">XTermod can only be installed on the primary user account.</string>
+    <string name="termfu_bootstrap_error_title">Unable to install</string>
+    <string name="termfu_bootstrap_error_try_again">Try again</string>
+    <string name="termfu_bootstrap_installer_body">Installing…</string>
+    <string name="termfu_confirm_kill_process">Really kill this session?</string>
+    <string name="termfu_copy_text">Copy</string>
+    <string name="termfu_file_received_edit_button" />
+    <string name="termfu_file_received_open_folder_button">Simpan sh</string>
+    <string name="termfu_file_received_title">Simpan sebagai ~/.shortcuts/</string>
+    <string name="termfu_help">Help</string>
+    <string name="termfu_kill_process">Kill process (%d)</string>
+    <string name="termfu_max_terminals_reached_message">Close down existing ones before creating new.</string>
+    <string name="termfu_max_terminals_reached_title">Max terminals reached</string>
+    <string name="termfu_new_session">New session</string>
+    <string name="termfu_new_session_failsafe">Failsafe</string>
+    <string name="termfu_no_shortcut_scripts">No files in\n$HOME/.shortcuts/</string>
+    <string name="termfu_notification_action_exit">Exit</string>
+    <string name="termfu_notification_action_wake_lock">Acquire wakelock</string>
+    <string name="termfu_notification_action_wake_unlock">Release wakelock</string>
+    <string name="termfu_paste_text">Paste</string>
+    <string name="termfu_refresh">Refresh</string>
+    <string name="termfu_reset_terminal">Reset</string>
+    <string name="termfu_reset_toast_notification">Terminal reset.</string>
+    <string name="termfu_run_command_permission_description">execute arbitrary commands within Termux environment</string>
+    <string name="termfu_run_command_permission_label">Run commands in Termux environment</string>
+    <string name="termfu_scripts_reloaded">XTermod shortcuts reloaded</string>
+    <string name="termfu_select_all_and_share">Share transcript</string>
+    <string name="termfu_select_url">Select URL</string>
+    <string name="termfu_select_url_copied_to_clipboard">URL copied to clipboard</string>
+    <string name="termfu_select_url_dialog_title">Click URL to copy or long press to open</string>
+    <string name="termfu_select_url_no_found">No URL found in the terminal.</string>
+    <string name="termfu_session_new_named_positive_button">Create</string>
+    <string name="termfu_session_new_named_title">New named session</string>
+    <string name="termfu_session_rename_positive_button">Set</string>
+    <string name="termfu_session_rename_title">Set session name</string>
+    <string name="termfu_share_transcript_chooser_title">Send text to:</string>
+    <string name="termfu_share_transcript_title">Terminal transcript</string>
+    <string name="termfu_shared_user_label">XTermod user</string>
+    <string name="termfu_shortcut_widget_name">XTermod widget</string>
+    <string name="termfu_single_shortcut_name">XTermod sh</string>
+    <string name="termfu_style_terminal">Style</string>
+    <string name="termfu_styling_install">Install</string>
+    <string name="termfu_styling_not_installed">The XTermod:Style add-on is not installed.</string>
+    <string name="termfu_termux">XTermod</string>
+    <string name="termfu_text_selection_more">More…</string>
+    <string name="termfu_toggle_keep_screen_on">Keep screen on</string>
+    <string name="termfu_toggle_soft_keyboard">Keyboard</string>
+    <string name="text_mailaddress">orkun@programmer.net</string>
+    <string name="text_make_your_choice">Make your choice.</string>
+    <string name="text_noroot">Root access couldn\'t found.10Please install \'su\' firstly.</string>
+    <string name="text_norootaccess">Root permission is needed.</string>
+    <string name="text_version">v1.2(3)</string>
+    <string name="text_webaddress">ForceStopIt.com</string>
+    <string name="toast_no_running_application">Not running an application at the background.</string>
+    <string name="toast_x_application_force_stopped">%s application force-stopped.</string>
+    <string name="toast_x_application_running_now">%s application running now.</string>
+
+    <!-- Additional UI Strings -->
+    <string name="title_build_prop_editor">Build Prop Editor</string>
+    <string name="btn_acak">ACAK</string>
+    <string name="btn_acak_prop">ACAK PROP</string>
+    <string name="btn_exit">EXIT</string>
+    <string name="btn_reboot">REBOOT</string>
+    <string name="btn_batal">Batal</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_pilih_folder">PILIH FOLDER</string>
+    <string name="text_wipe_mass">Wipe Mass</string>
+    <string name="text_belum_ada_daftar">Belum ada daftar</string>
+    <string name="text_setting_katrina_island">Setting Katrina Island</string>
+    <string name="text_gagal_mendapatkan_data">Gagal mendapatkan data</string>
+    <string name="text_timepick">Timepick</string>
+    <string name="text_memetakan_cache">Memetakan Cache</string>
+    <string name="text_gradient">Gradient</string>
+    <string name="text_code">Code</string>
+    <string name="text_material">Material</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_folder_kosong">Folder ini kosong</string>
+    <string name="toast_hanya_bisa_pilih_folder">Hanya bisa memilih folder</string>
+    <string name="toast_kamu_sudah_sampe_di_awal">Kamu sudah sampe di awal</string>
+    <string name="toast_berhasil_disimpan">Berhasil disimpan</string>
+    <string name="toast_ada_yang_salah">Ada yang salah</string>
+    <string name="toast_aplikasi_sudah_ada_dalam_list">Aplikasi sudah ada didalam list</string>
+    <string name="toast_mohon_lengkapi_data">Mohon lengkapi data</string>
+    <string name="toast_mohon_ubah_data">Mohon ubah data</string>
+    <string name="toast_harap_pilih_aplikasi_dahulu">Harap pilih aplikasi dahulu</string>
+    <string name="toast_harap_pilih_tools">Harap pilih tools</string>
+    <string name="toast_proses_katrina_prop_pending">Proses KatrinaPROP masih pending</string>
+    <string name="toast_hanya_bisa_memilih_satu_aplikasi">Hanya bisa memilih satu aplikasi</string>
+    <string name="toast_shortcut_berhasil_dibuat">Shortcut berhasil dibuat</string>
+    <string name="toast_nama_tidak_boleh_kosong">Nama tidak boleh kosong</string>
+    <string name="toast_nama_sudah_dipakai">Nama sudah dipakai</string>
+    <string name="toast_icon_dipilih_secara_default">Icon dipilih secara default</string>
+    <string name="toast_silakan_pilih_icon">Silakan pilih icon</string>
+    <string name="toast_nama_tidak_valid">Nama tidak valid</string>
+    <string name="toast_data_tersimpan">Data tersimpan</string>
+    <string name="toast_telepon_disimpan">Pengaturan telepon disimpan</string>
+    <string name="toast_bot_disimpan">Pengaturan bot disimpan</string>
+    <string name="toast_mengacak">Mengacak…</string>
+    <string name="toast_mengedit">Mengedit 1 file prop akan otomatis mengubah nilai dari file prop lainnya</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_title_konfirmasi">Konfirmasi</string>
+    <string name="dialog_title_pilih_aplikasi">Pilih Aplikasi</string>
+    <string name="dialog_title_pilih_icon">Pilih Icon</string>
+    <string name="dialog_title_edit_prop">Edit Property</string>
+    <string name="dialog_title_tambah_prop">Tambah Property</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_msg_yakin_ingin_menghapus">Yakin ingin menghapus?</string>
+    <string name="dialog_msg_reset_all_settings">Reset semua pengaturan?</string>
+    <string name="dialog_msg_folder_ini_kosong">Folder ini kosong. Silakan pilih folder lain.</string>
+
+    <!-- Hints -->
+    <string name="hint_nama_shortcut">Nama shortcut</string>
+    <string name="hint_cari_aplikasi">Cari aplikasi…</string>
+    <string name="hint_value_prop">Value property</string>
+    <string name="hint_key_prop">Key property</string>
+
+    <!-- Tab Titles -->
+    <string name="tab_informasi">Informasi</string>
+    <string name="tab_editor">Editor</string>
+    <string name="tab_ritual">Ritual</string>
+    <string name="tab_shortcut">Shortcut</string>
+    <string name="tab_setelan">Setelan</string>
+    <string name="tab_aplikasi_user">Aplikasi User</string>
+    <string name="tab_aplikasi_sistem">Aplikasi Sistem</string>
+
+    <!-- Misc -->
+    <string name="text_author">malas</string>
+    <string name="text_thanks_to">Thanks to fufufu7 aka edo for create the best app ever</string>
+    <string name="status_active">Aktif</string>
+    <string name="status_nonaktif">Nonaktif</string>
+    <string name="status_pending">Pending</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_refresh">Refresh</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/fu11sp"
+        android:textColor="#fff1f1f1"
+        android:id="@+id/tv_1"
+        android:background="#ff212121"
+        android:paddingLeft="@dimen/fu12dp"
+        android:paddingTop="@dimen/fu14dp"
+        android:paddingRight="@dimen/fu12dp"
+        android:paddingBottom="@dimen/fu14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/lv_fsnavigator"
+        android:padding="@dimen/fu4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        android:choiceMode="none"/>
+</LinearLayout>

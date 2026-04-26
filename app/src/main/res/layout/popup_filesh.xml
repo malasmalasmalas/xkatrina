@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/ln_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/im_02"
+            android:padding="@dimen/fu5dp"
+            android:focusable="false"
+            android:layout_width="@dimen/fu24dp"
+            android:layout_height="@dimen/fu24dp"
+            android:src="@drawable/default_image"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:textSize="@dimen/fu12sp"
+            android:textColor="#ffffff"
+            android:id="@+id/tv_01"
+            android:padding="@dimen/fu8dp"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/ln_02"
+            android:layout_width="@dimen/fu50dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/im_01"
+                android:padding="@dimen/fu5dp"
+                android:focusable="false"
+                android:layout_width="@dimen/fu24dp"
+                android:layout_height="@dimen/fu24dp"
+                android:src="@drawable/default_image"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

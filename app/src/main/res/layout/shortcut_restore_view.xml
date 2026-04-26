@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/mvc_base"
+        android:layout_width="@dimen/fu42dp"
+        android:layout_height="@dimen/fu42dp"
+        android:layout_marginLeft="@dimen/fu2dp"
+        android:layout_marginRight="@dimen/fu2dp"
+        app:cardCornerRadius="@dimen/fu100dp"
+        style="@style/Widget.Material3.CardView.Filled">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/ln_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="@dimen/fu10sp"
+                android:id="@+id/tv_number"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

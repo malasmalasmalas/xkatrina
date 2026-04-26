@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ln_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_corousel_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fu100dp"
+            android:layout_margin="@dimen/fu4dp"
+            app:layoutManager="com.google.android.material.carousel.CarouselLayoutManager"/>
+        <TextView
+            android:textSize="@dimen/fu12sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_title_main"
+            android:paddingLeft="@dimen/fu8dp"
+            android:paddingTop="@dimen/fu8dp"
+            android:paddingRight="@dimen/fu8dp"
+            android:paddingBottom="@dimen/fu4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Shortcut"/>
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/frame_base"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

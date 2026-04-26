@@ -1,0 +1,3 @@
+-keep class com.fufufu.katrina.** { *; }
+-keep class com.topjohnwu.superuser.** { *; }
+-keepattributes *Annotation*

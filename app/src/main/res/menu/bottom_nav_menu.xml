@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_scan_nav"
+        android:id="@+id/navigation_scan"
+        android:title="Scan"/>
+    <item
+        android:icon="@drawable/ic_create_nav"
+        android:id="@+id/navigation_create"
+        android:title="Create"/>
+    <item
+        android:icon="@drawable/ic_getprop_nav"
+        android:id="@+id/navigation_getprop"
+        android:title="Get Prop"/>
+</menu>

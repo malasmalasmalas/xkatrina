@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/ln_unix_backup"
+        android:paddingLeft="@dimen/fu8dp"
+        android:paddingTop="@dimen/fu2dp"
+        android:paddingRight="@dimen/fu8dp"
+        android:paddingBottom="@dimen/fu2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView
+            android:orientation="vertical"
+            android:id="@+id/cv_1"
+            android:layout_width="@dimen/fu30dp"
+            android:layout_height="@dimen/fu30dp"
+            android:layout_margin="@dimen/fu2dp"
+            app:cardCornerRadius="@dimen/fu20dp"
+            style="@style/Widget.Material3.CardView.Filled">
+            <ImageView
+                android:id="@+id/im_unix_backup"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/default_image"
+                android:scaleType="fitCenter"/>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:textSize="@dimen/fu12sp"
+            android:id="@+id/tv_unix_backup"
+            android:padding="@dimen/fu8dp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"/>
+    </LinearLayout>
+</LinearLayout>

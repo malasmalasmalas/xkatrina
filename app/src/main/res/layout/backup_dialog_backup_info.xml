@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ln_base"
+        android:paddingTop="@dimen/fu8dp"
+        android:paddingBottom="@dimen/fu8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/fu12sp"
+            android:id="@+id/tv_01"
+            android:padding="@dimen/fu8dp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Info"/>
+        <ScrollView
+            android:id="@+id/vscr_1"
+            android:padding="@dimen/fu8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ln_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </ScrollView>
+        <Button
+            android:textSize="@dimen/fu12sp"
+            android:layout_gravity="right"
+            android:id="@+id/btn_1"
+            android:padding="@dimen/fu8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fu8dp"
+            android:text="Oke"
+            style="@style/Widget.Material3.Button.TextButton"/>
+    </LinearLayout>
+</LinearLayout>

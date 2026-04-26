@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/fu12sp"
+        android:id="@+id/dump_text"
+        android:paddingLeft="@dimen/fu8dp"
+        android:paddingTop="@dimen/fu3dp"
+        android:paddingRight="@dimen/fu8dp"
+        android:paddingBottom="@dimen/fu3dp"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="@font/sans"/>
+</LinearLayout>

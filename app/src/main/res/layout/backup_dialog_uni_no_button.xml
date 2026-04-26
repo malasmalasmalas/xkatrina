@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/ln_01"
+        android:padding="@dimen/fu8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie1"
+            android:layout_width="@dimen/fu30dp"
+            android:layout_height="@dimen/fu30dp"
+            android:layout_marginLeft="@dimen/fu10dp"
+            android:layout_marginTop="@dimen/fu10dp"
+            android:layout_marginBottom="@dimen/fu10dp"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_colorFilter="?attr/colorAccent"
+            app:lottie_fileName="anim_loading.json"
+            app:lottie_loop="true"/>
+        <TextView
+            android:textSize="@dimen/fu11sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_uni_dialog"
+            android:padding="@dimen/fu8dp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohon menunggu"/>
+    </LinearLayout>
+</LinearLayout>
