@@ -91,6 +91,7 @@ XKatrina/
 │   │       ├── prop.json
 │   │       ├── a.json
 │   │       ├── b.json
+│   │       ├── univ.zip (latest universal prop archive)
 │   │       └── main.dex (Magisk module)
 │   └── build.gradle
 ├── gradle/

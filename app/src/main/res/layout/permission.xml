@@ -51,7 +51,7 @@
                             android:id="@+id/tv_katrina"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="Im Katrina"/>
+                            android:text="@string/permission_island_short"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -71,7 +71,7 @@
                 android:padding="@dimen/fu8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ijinkan Katrina Island membuat notifikasi di perangkat"
+                android:text="@string/permission_desc_notifications"
                 android:layout_weight="1"/>
             <Button
                 android:textSize="@dimen/fu12sp"
@@ -81,7 +81,7 @@
                 android:padding="@dimen/fu8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Berikan Ijin"/>
+                android:text="@string/permission_button_grant"/>
         </LinearLayout>
         <LinearLayout
             android:gravity="center_vertical"
@@ -99,7 +99,7 @@
                 android:padding="@dimen/fu8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ijinkan Katrina Island mengambang diatas aplikasi lain"
+                android:text="@string/permission_desc_overlay"
                 android:layout_weight="1"/>
             <Button
                 android:textSize="@dimen/fu12sp"
@@ -109,7 +109,7 @@
                 android:padding="@dimen/fu8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Berikan Ijin"/>
+                android:text="@string/permission_button_grant"/>
         </LinearLayout>
         <LinearLayout
             android:gravity="center_vertical"
@@ -126,7 +126,7 @@
                 android:padding="@dimen/fu8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Aktifkan Katrina Island pada menu Aksesibilitas"
+                android:text="@string/permission_desc_accessibility"
                 android:layout_weight="1"/>
             <Button
                 android:textSize="@dimen/fu12sp"
@@ -136,7 +136,7 @@
                 android:padding="@dimen/fu8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Berikan Ijin"/>
+                android:text="@string/permission_button_grant"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -654,12 +654,12 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
             this.tv_note.setText(string);
         } else {
             this.s_note = "";
-            this.tv_note.setText("Catatan null");
+            this.tv_note.setText(getString(C0978R.string.restore_note_empty));
         }
         if (this.m_json_backup.containsKey("DATE")) {
             this.tv_date.setText(this.m_json_backup.get("DATE").toString());
         } else {
-            this.tv_date.setText("Date null");
+            this.tv_date.setText(getString(C0978R.string.restore_date_empty));
         }
         if (this.m_json_backup.containsKey("settings_ssaid")) {
             this.s_restore_ssaid = this.m_json_backup.get("settings_ssaid").toString();
@@ -687,29 +687,29 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
         }
         this.s_sdk = String.valueOf(Build.VERSION.SDK_INT);
         if (this.s_restore_prop.equals("true")) {
-            this.tv_desc_prop.setText("Diijinkan :");
+            this.tv_desc_prop.setText(getString(C0978R.string.restore_allowed));
             this.switch_prop.setEnabled(true);
             this.switch_prop.setAlpha(1.0f);
         } else {
-            this.tv_desc_prop.setText("Tidak diijinkan :");
+            this.tv_desc_prop.setText(getString(C0978R.string.restore_not_allowed));
             this.switch_prop.setEnabled(false);
             this.switch_prop.setAlpha(0.4f);
         }
         if (this.s_restore_ssaid.equals("true")) {
-            this.tv_desc_ssaid.setText("Diijinkan :");
+            this.tv_desc_ssaid.setText(getString(C0978R.string.restore_allowed));
             this.switch_ssaid.setEnabled(true);
             this.switch_ssaid.setAlpha(1.0f);
         } else {
-            this.tv_desc_ssaid.setText("Tidak diijinkan :");
+            this.tv_desc_ssaid.setText(getString(C0978R.string.restore_not_allowed));
             this.switch_ssaid.setEnabled(false);
             this.switch_ssaid.setAlpha(0.4f);
         }
         if (this.s_sdk.equals(this.s_restore_sdk)) {
             return;
         }
-        this.tv_desc_ssaid.setText("Tidak diijinkan :");
+        this.tv_desc_ssaid.setText(getString(C0978R.string.restore_not_allowed));
         this.switch_ssaid.setEnabled(false);
-        this.tv_desc_prop.setText("Tidak diijinkan :");
+        this.tv_desc_prop.setText(getString(C0978R.string.restore_not_allowed));
         this.switch_prop.setEnabled(false);
         this.switch_ssaid.setAlpha(0.4f);
         this.switch_prop.setAlpha(0.4f);
@@ -725,7 +725,7 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
                     return;
                 } catch (Exception e) {
                     e.printStackTrace();
-                    SketchwareUtil.showMessage(getContext().getApplicationContext(), "Kamu sudah diurutan pertama");
+                    SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(C0978R.string.restore_first_item));
                 }
             }
             this.n_loop += 1.0d;
@@ -742,7 +742,7 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
                     return;
                 } catch (Exception e) {
                     e.printStackTrace();
-                    SketchwareUtil.showMessage(getContext().getApplicationContext(), "Kamu sudah diurutan terakhir");
+                    SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(C0978R.string.restore_last_item));
                 }
             }
             this.n_loop += 1.0d;
@@ -774,8 +774,8 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
             this.s_scbase = this.s_scbase.replace("#exe3", this.s_exe3);
         }
         this.s_command = this.s_scbase;
-        this.tv_proses_title.setText("Proses");
-        this.tv_proses_backup.setText("Restore backup\n".concat(this.prefui.getString("backup_app_name", "")));
+        this.tv_proses_title.setText(getString(C0978R.string.restore_process_title));
+        this.tv_proses_backup.setText(getString(C0978R.string.restore_backup_progress, this.prefui.getString("backup_app_name", "")));
         this.ln_lottie.setVisibility(0);
         this.btn_oke.setVisibility(8);
         this.btn_open.setVisibility(8);
@@ -785,7 +785,7 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
                 if (ScrestoreDialogFragmentActivity.this.b_command) {
                     ScrestoreDialogFragmentActivity.this.OnRestore.removeCallbacks(ScrestoreDialogFragmentActivity.this.runnableOnRestore);
                     ScrestoreDialogFragmentActivity.this.b_command = false;
-                    ScrestoreDialogFragmentActivity.this.tv_proses_title.setText("Selesai");
+                    ScrestoreDialogFragmentActivity.this.tv_proses_title.setText(getString(C0978R.string.restore_process_done));
                     ScrestoreDialogFragmentActivity.this.tv_proses_backup.setText(ScrestoreDialogFragmentActivity.this.s_commandResult);
                     ScrestoreDialogFragmentActivity.this.ln_lottie.setVisibility(8);
                     ScrestoreDialogFragmentActivity.this.btn_oke.setVisibility(0);
@@ -800,10 +800,10 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
         this.runnableOnRestore = runnable;
         this.OnRestore.postDelayed(runnable, 0L);
         if (this.b_ssaid || this.b_prop) {
-            this.btn_oke.setText("Reboot");
+            this.btn_oke.setText(getString(C0978R.string.btn_reboot));
         } else {
             this.btn_open.setVisibility(8);
-            this.btn_oke.setText("Tutup");
+            this.btn_oke.setText(getString(C0978R.string.common_close));
         }
     }
 
@@ -813,7 +813,7 @@ public class ScrestoreDialogFragmentActivity extends DialogFragment {
             startActivity(launchIntentForPackage);
             dismiss();
         } else {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Aplikasi tidak ditemukan");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(C0978R.string.toast_app_not_found));
         }
     }
 

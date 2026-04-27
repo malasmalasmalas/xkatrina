@@ -262,7 +262,7 @@ public class ShortcutExecutorActivity extends AppCompatActivity {
         if (getPackageManager().queryIntentActivities(this.iShortcut, 0).size() > 0) {
             startActivity(this.iShortcut);
         } else {
-            Toast.makeText(this, "Tidak ada browser untuk membuka link", 0).show();
+            Toast.makeText(this, getString(C0978R.string.toast_browser_not_found), 0).show();
         }
         finish();
     }
@@ -379,7 +379,7 @@ public class ShortcutExecutorActivity extends AppCompatActivity {
         progressDialog.setIndeterminate(true);
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.setCancelable(false);
-        progressDialog.setMessage("Restarting apps...");
+        progressDialog.setMessage(getString(C0978R.string.shortcut_restarting_apps));
         progressDialog.show();
         final List<String> apparray = getApparray(this);
         final StringBuilder sb = new StringBuilder();
@@ -822,13 +822,13 @@ public class ShortcutExecutorActivity extends AppCompatActivity {
                 if (launchIntentForPackage != null) {
                     startActivity(launchIntentForPackage);
                 } else {
-                    Toast.makeText(this, "Aplikasi tidak ditemukan", 0).show();
+                    Toast.makeText(this, getString(C0978R.string.toast_app_not_found), 0).show();
                 }
             } catch (Exception unused) {
-                Toast.makeText(this, "Terjadi kesalahan saat mencoba membuka aplikasi", 0).show();
+                Toast.makeText(this, getString(C0978R.string.toast_open_app_failed), 0).show();
             }
         } else {
-            Toast.makeText(this, "Package name tidak ditemukan", 0).show();
+            Toast.makeText(this, getString(C0978R.string.toast_package_name_not_found), 0).show();
         }
         finish();
     }

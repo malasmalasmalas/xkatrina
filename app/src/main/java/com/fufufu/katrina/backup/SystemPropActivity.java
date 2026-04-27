@@ -279,7 +279,7 @@ public class SystemPropActivity extends AppCompatActivity {
     }
 
     public void _randomAllPropPref() {
-        this.tv_prop_title.setText("Mengacak...");
+        this.tv_prop_title.setText(getString(C0978R.string.toast_mengacak));
         this.rv_1.startAnimation(AnimationUtils.loadAnimation(this, C0978R.anim.m3_motion_fade_exit));
         this.rv_1.setVisibility(8);
         this.ln_bottom.setVisibility(8);
@@ -430,7 +430,7 @@ public class SystemPropActivity extends AppCompatActivity {
             this.s_new_prop = strConcat19;
             _replaceAllProp(this.s_key_prop, strConcat19);
         }
-        this.tv_prop_title.setText("Mengedit 1 file prop akan otomatis mengubah nilai dari file prop lainnya");
+        this.tv_prop_title.setText(getString(C0978R.string.toast_mengedit));
         this.rv_1.startAnimation(AnimationUtils.loadAnimation(this, C0978R.anim.m3_motion_fade_enter));
         this.rv_1.setVisibility(0);
         this.ln_bottom.setVisibility(0);
@@ -515,7 +515,7 @@ public class SystemPropActivity extends AppCompatActivity {
             public void onClick(View view) {
                 textInputLayout.setVisibility(8);
                 progressBar.setVisibility(0);
-                textView.setText("Cek all system.prop");
+                textView.setText(SystemPropActivity.this.getString(C0978R.string.system_prop_check_all));
                 SystemPropActivity systemPropActivity = SystemPropActivity.this;
                 systemPropActivity.s_result_editor = systemPropActivity.s_title_editor.concat("=".concat(autoCompleteTextView.getText().toString()));
                 ((HashMap) SystemPropActivity.this.lm_editor.get((int) SystemPropActivity.this.editor_pos)).put("prop", SystemPropActivity.this.s_result_editor);
@@ -686,7 +686,7 @@ public class SystemPropActivity extends AppCompatActivity {
         @Override // android.os.AsyncTask
         protected void onPreExecute() {
             this.isRunning = true;
-            SystemPropActivity.this.tv_prop_title.setText("Menerapkan pergantian prop");
+            SystemPropActivity.this.tv_prop_title.setText(SystemPropActivity.this.getString(C0978R.string.system_prop_apply_title));
             SystemPropActivity.this.pbar_title.setVisibility(0);
             SystemPropActivity.this.rv_1.setVisibility(8);
             SystemPropActivity.this.lv_1.setVisibility(8);
@@ -913,7 +913,7 @@ public class SystemPropActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            SystemPropActivity.this.tv_prop_title.setText("Scanning build.prop file");
+            SystemPropActivity.this.tv_prop_title.setText(SystemPropActivity.this.getString(C0978R.string.system_prop_scanning_title));
             SystemPropActivity.this.rv_1.setVisibility(8);
             SystemPropActivity.this.lv_1.setVisibility(8);
             SystemPropActivity.this.ln_bottom.setVisibility(8);
@@ -1090,7 +1090,7 @@ public class SystemPropActivity extends AppCompatActivity {
             SystemPropActivity.this.rv_1.setHasFixedSize(true);
             SystemPropActivity.this.rv_1.setVisibility(0);
             SystemPropActivity.this.ln_bottom.setVisibility(0);
-            SystemPropActivity.this.tv_prop_title.setText("Mengedit 1 file prop akan otomatis mengubah nilai dari file prop lainnya");
+            SystemPropActivity.this.tv_prop_title.setText(SystemPropActivity.this.getString(C0978R.string.toast_mengedit));
             SystemPropActivity.this.pbar_title.setVisibility(8);
         }
 

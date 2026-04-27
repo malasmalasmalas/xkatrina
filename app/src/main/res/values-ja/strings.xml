@@ -13,6 +13,20 @@
     <string name="agree_button">同意する</string>
     <string name="agree_rejected">まだ本アプリの使用は許可されていません</string>
 
+    <string name="permission_island_short">I\'m Katrina</string>
+    <string name="permission_island_intro">I am Katrina Island &lt;/&gt;</string>
+    <string name="permission_island_tip_menu">ここから重要なメニューにアクセスできます</string>
+    <string name="permission_island_tip_script">ここから shell script も実行できます</string>
+    <string name="permission_island_tip_ritual">Ritual もここにあります :)</string>
+    <string name="permission_island_tip_address">住所生成も利用できます</string>
+    <string name="permission_desc_notifications">Katrina Island がこの端末で通知を表示できるようにします</string>
+    <string name="permission_desc_overlay">Katrina Island が他のアプリの上に表示できるようにします</string>
+    <string name="permission_desc_accessibility">アクセシビリティ設定で Katrina Island を有効にしてください</string>
+    <string name="permission_button_grant">権限を許可</string>
+    <string name="permission_button_allowed">許可済み</string>
+    <string name="permission_channel_name">通知チャンネル</string>
+    <string name="permission_channel_desc">通知を表示するためのチャンネル</string>
+
     <string name="module_not_installed_title">モジュール未インストール</string>
     <string name="module_not_installed_msg">「%1$s」機能は Magisk/KSU/APatch で XKatrina モジュールを有効化する必要があります。今すぐインストールしますか？</string>
     <string name="module_install">インストール</string>
@@ -59,6 +73,9 @@
     <string name="fakegps_dev_unavailable">Developer Options を開けません</string>
 
     <string name="common_ok">OK</string>
+    <string name="common_open">開く</string>
+    <string name="common_close">閉じる</string>
+    <string name="common_loading">読み込み中</string>
     <string name="common_retry">再試行</string>
     <string name="toast_hard_random_success">添え字化成功 (Hard Random)</string>
     <string name="toast_prop_random_success">添え字化成功 (Prop Random)</string>
@@ -106,6 +123,34 @@
     <string name="toast_bot_disimpan">Bot設定保存済み</string>
     <string name="toast_mengacak">ランダム化中…</string>
     <string name="toast_mengedit">1つのpropファイルを編集すると他のpropファイルも自動変更されます</string>
+    <string name="toast_browser_not_found">リンクを開くブラウザが見つかりません</string>
+    <string name="toast_package_name_not_found">パッケージ名が見つかりません</string>
+    <string name="toast_open_app_failed">アプリを開く際にエラーが発生しました</string>
+    <string name="restore_number_label">番号</string>
+    <string name="restore_date_label">日付</string>
+    <string name="restore_note_label">メモ</string>
+    <string name="restore_note_hint">メモ</string>
+    <string name="restore_note_empty">メモなし</string>
+    <string name="restore_date_empty">日付なし</string>
+    <string name="restore_allowed">許可 :</string>
+    <string name="restore_not_allowed">未許可 :</string>
+    <string name="restore_first_item">すでに最初の項目です</string>
+    <string name="restore_last_item">すでに最後の項目です</string>
+    <string name="restore_action_title">復元</string>
+    <string name="restore_settings_ssaid">settings_ssaid を復元</string>
+    <string name="restore_system_prop">system.prop を復元</string>
+    <string name="restore_process_title">処理中</string>
+    <string name="restore_process_done">完了</string>
+    <string name="restore_progress_message">しばらくお待ちください</string>
+    <string name="restore_backup_progress">バックアップを復元中\n%1$s</string>
+    <string name="settings_position_front">前</string>
+    <string name="settings_position_back">後</string>
+    <string name="settings_converting">変換中...</string>
+    <string name="settings_convert_done">%1$d 件のバックアップの変換が完了しました\n保存先: %2$s</string>
+    <string name="system_prop_scanning_title">build.prop ファイルをスキャン中</string>
+    <string name="system_prop_apply_title">prop の変更を適用中</string>
+    <string name="system_prop_check_all">すべての system.prop を確認</string>
+    <string name="shortcut_restarting_apps">アプリを再起動中...</string>
     <string name="dialog_title_konfirmasi">確認</string>
     <string name="dialog_title_pilih_aplikasi">アプリ選択</string>
     <string name="dialog_title_pilih_icon">アイコン選択</string>

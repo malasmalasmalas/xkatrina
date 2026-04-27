@@ -511,12 +511,12 @@ public class SetelanFragmentActivity extends Fragment {
         });
         this.tv_loc_code_name.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
             public void onClick(View view2) {
-                if (SetelanFragmentActivity.this.tv_loc_code_name.getText().toString().equals("Depan")) {
+                if ("d".equals(SetelanFragmentActivity.this.s_location_name_code)) {
                     SetelanFragmentActivity.this.s_location_name_code = "b";
-                    SetelanFragmentActivity.this.tv_loc_code_name.setText("Belakang");
+                    SetelanFragmentActivity.this.tv_loc_code_name.setText(SetelanFragmentActivity.this.getString(C0978R.string.settings_position_back));
                 } else {
                     SetelanFragmentActivity.this.s_location_name_code = "d";
-                    SetelanFragmentActivity.this.tv_loc_code_name.setText("Depan");
+                    SetelanFragmentActivity.this.tv_loc_code_name.setText(SetelanFragmentActivity.this.getString(C0978R.string.settings_position_front));
                 }
             }
         });
@@ -701,14 +701,14 @@ public class SetelanFragmentActivity extends Fragment {
         if (this.prefrandom.getString("s_location_name_code", "").equals("")) {
             this.s_location_name_code = "d";
             this.prefrandom.edit().putString("s_location_name_code", this.s_location_name_code).commit();
-            this.tv_loc_code_name.setText("Depan");
+            this.tv_loc_code_name.setText(getString(C0978R.string.settings_position_front));
         } else {
             String string2 = this.prefrandom.getString("s_location_name_code", "");
             this.s_location_name_code = string2;
             if (string2.equals("d")) {
-                this.tv_loc_code_name.setText("Depan");
+                this.tv_loc_code_name.setText(getString(C0978R.string.settings_position_front));
             } else {
-                this.tv_loc_code_name.setText("Belakang");
+                this.tv_loc_code_name.setText(getString(C0978R.string.settings_position_back));
             }
         }
         if (this.prefrandom.getString("s_code_name", "").equals("")) {
@@ -1236,7 +1236,7 @@ public class SetelanFragmentActivity extends Fragment {
             AlertDialog alertDialogCreate = materialAlertDialogBuilder.create();
             this.dialog = alertDialogCreate;
             alertDialogCreate.show();
-            this.tv_message.setText("Sedang mengkonversi...");
+            this.tv_message.setText(getString(C0978R.string.settings_converting));
             this.btn_close.setVisibility(8);
             if (!FileUtil.isExistFile(SetelanFragmentActivity.this.s_targetpath)) {
                 FileUtil.makeDir(SetelanFragmentActivity.this.s_targetpath);
@@ -1373,7 +1373,7 @@ public class SetelanFragmentActivity extends Fragment {
             this.isRunning = false;
             this.btn_close.setVisibility(0);
             this.ln_pbar.setVisibility(8);
-            this.tv_message.setText("Selesai mengkonversi ".concat(String.valueOf(SetelanFragmentActivity.this.ls_convert_backup.size()).concat("file backup\nDisimpan di ".concat(Uri.parse(SetelanFragmentActivity.this.s_targetpath).getLastPathSegment()))));
+            this.tv_message.setText(SetelanFragmentActivity.this.getString(C0978R.string.settings_convert_done, Integer.valueOf(SetelanFragmentActivity.this.ls_convert_backup.size()), Uri.parse(SetelanFragmentActivity.this.s_targetpath).getLastPathSegment()));
             this.btn_close.setOnClickListener(new View.OnClickListener() {                 @Override // android.view.View.OnClickListener
                 public void onClick(View view) {
                     MyCONVERT.this.dialog.dismiss();

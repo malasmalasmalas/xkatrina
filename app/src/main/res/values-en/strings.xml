@@ -13,6 +13,20 @@
     <string name="agree_button">Agree</string>
     <string name="agree_rejected">You are not allowed to use this app yet</string>
 
+    <string name="permission_island_short">I\'m Katrina</string>
+    <string name="permission_island_intro">I am Katrina Island &lt;/&gt;</string>
+    <string name="permission_island_tip_menu">You can access important menus from here</string>
+    <string name="permission_island_tip_script">You can also run shell scripts from here</string>
+    <string name="permission_island_tip_ritual">Ritual is here too :)</string>
+    <string name="permission_island_tip_address">Address generation is available too</string>
+    <string name="permission_desc_notifications">Allow Katrina Island to show notifications on this device</string>
+    <string name="permission_desc_overlay">Allow Katrina Island to float above other apps</string>
+    <string name="permission_desc_accessibility">Enable Katrina Island in Accessibility settings</string>
+    <string name="permission_button_grant">Grant Permission</string>
+    <string name="permission_button_allowed">Allowed</string>
+    <string name="permission_channel_name">Notification Channel</string>
+    <string name="permission_channel_desc">Channel for displaying notifications</string>
+
     <string name="module_not_installed_title">Module not installed</string>
     <string name="module_not_installed_msg">The \"%1$s\" feature requires the XKatrina module to be active in Magisk/KSU/APatch. Install now?</string>
     <string name="module_install">Install</string>
@@ -59,6 +73,9 @@
     <string name="fakegps_dev_unavailable">Cannot open Developer Options</string>
 
     <string name="common_ok">OK</string>
+    <string name="common_open">Open</string>
+    <string name="common_close">Close</string>
+    <string name="common_loading">Loading</string>
     <string name="common_retry">Retry</string>
     <string name="toast_hard_random_success">Scrambled successfully (Hard Random)</string>
     <string name="toast_prop_random_success">Scrambled successfully (Prop Random)</string>
@@ -106,6 +123,34 @@
     <string name="toast_bot_disimpan">Bot settings saved</string>
     <string name="toast_mengacak">Scrambling…</string>
     <string name="toast_mengedit">Editing 1 prop file will auto-change other prop files</string>
+    <string name="toast_browser_not_found">No browser is available to open the link</string>
+    <string name="toast_package_name_not_found">Package name not found</string>
+    <string name="toast_open_app_failed">An error occurred while trying to open the app</string>
+    <string name="restore_number_label">Number</string>
+    <string name="restore_date_label">Date</string>
+    <string name="restore_note_label">Note</string>
+    <string name="restore_note_hint">Note</string>
+    <string name="restore_note_empty">No note</string>
+    <string name="restore_date_empty">No date</string>
+    <string name="restore_allowed">Allowed :</string>
+    <string name="restore_not_allowed">Not allowed :</string>
+    <string name="restore_first_item">You are already at the first item</string>
+    <string name="restore_last_item">You are already at the last item</string>
+    <string name="restore_action_title">Restore</string>
+    <string name="restore_settings_ssaid">Restore settings_ssaid</string>
+    <string name="restore_system_prop">Restore system.prop</string>
+    <string name="restore_process_title">Processing</string>
+    <string name="restore_process_done">Done</string>
+    <string name="restore_progress_message">Please wait</string>
+    <string name="restore_backup_progress">Restoring backup\n%1$s</string>
+    <string name="settings_position_front">Front</string>
+    <string name="settings_position_back">Back</string>
+    <string name="settings_converting">Converting...</string>
+    <string name="settings_convert_done">Finished converting %1$d backup files\nSaved in %2$s</string>
+    <string name="system_prop_scanning_title">Scanning build.prop file</string>
+    <string name="system_prop_apply_title">Applying prop changes</string>
+    <string name="system_prop_check_all">Check all system.prop</string>
+    <string name="shortcut_restarting_apps">Restarting apps...</string>
     <string name="dialog_title_konfirmasi">Confirmation</string>
     <string name="dialog_title_pilih_aplikasi">Select App</string>
     <string name="dialog_title_pilih_icon">Select Icon</string>

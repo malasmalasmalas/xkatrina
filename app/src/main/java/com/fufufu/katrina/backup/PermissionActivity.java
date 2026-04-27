@@ -255,7 +255,7 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     public void _playKatrinaAnimation() {
-        this.tv_katrina.setText("I am Katrina Island </>");
+        this.tv_katrina.setText(getString(C0978R.string.permission_island_intro));
         ValueAnimator valueAnimatorOfInt = ValueAnimator.ofInt(this.ln_island_img.getMeasuredWidth(), 600);
         this.anim = valueAnimatorOfInt;
         valueAnimatorOfInt.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.14
@@ -364,7 +364,7 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     public void _playKatrinaAnimation1() {
-        this.tv_katrina.setText("Kamu bisa akses menu penting dari sini");
+        this.tv_katrina.setText(getString(C0978R.string.permission_island_tip_menu));
         ValueAnimator valueAnimatorOfInt = ValueAnimator.ofInt(this.ln_island_img.getMeasuredWidth(), 600);
         this.anim = valueAnimatorOfInt;
         valueAnimatorOfInt.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.17
@@ -473,7 +473,7 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     public void _playKatrinaAnimation2() {
-        this.tv_katrina.setText("Semua script sh juga bisa dijalankan dari sini");
+        this.tv_katrina.setText(getString(C0978R.string.permission_island_tip_script));
         ValueAnimator valueAnimatorOfInt = ValueAnimator.ofInt(this.ln_island_img.getMeasuredWidth(), 600);
         this.anim = valueAnimatorOfInt;
         valueAnimatorOfInt.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.20
@@ -582,7 +582,7 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     public void _playKatrinaAnimation3() {
-        this.tv_katrina.setText("Ritual juga ada disini :)");
+        this.tv_katrina.setText(getString(C0978R.string.permission_island_tip_ritual));
         ValueAnimator valueAnimatorOfInt = ValueAnimator.ofInt(this.ln_island_img.getMeasuredWidth(), 600);
         this.anim = valueAnimatorOfInt;
         valueAnimatorOfInt.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.23
@@ -691,7 +691,7 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     public void _playKatrinaAnimation4() {
-        this.tv_katrina.setText("Generate alamat juga ada");
+        this.tv_katrina.setText(getString(C0978R.string.permission_island_tip_address));
         ValueAnimator valueAnimatorOfInt = ValueAnimator.ofInt(this.ln_island_img.getMeasuredWidth(), 600);
         this.anim = valueAnimatorOfInt;
         valueAnimatorOfInt.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.26
@@ -801,8 +801,8 @@ public class PermissionActivity extends AppCompatActivity {
 
     public void _createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= 26) {
-            NotificationChannel notificationChannel = new NotificationChannel(this.s_channel_id, "Notification Channel", 3);
-            notificationChannel.setDescription("Channel for displaying notifications");
+            NotificationChannel notificationChannel = new NotificationChannel(this.s_channel_id, getString(C0978R.string.permission_channel_name), 3);
+            notificationChannel.setDescription(getString(C0978R.string.permission_channel_desc));
             ((NotificationManager) getSystemService(NotificationManager.class)).createNotificationChannel(notificationChannel);
         }
     }
@@ -811,23 +811,24 @@ public class PermissionActivity extends AppCompatActivity {
         NotificationManager notificationManager;
         boolean zIsAccessibilityServiceEnabled = isAccessibilityServiceEnabled(getApplicationContext(), KatrinaIslandService.class);
         if (Build.VERSION.SDK_INT >= 23 && Settings.canDrawOverlays(this)) {
-            this.btn_overlay.setText("DIIJINKAN");
+            this.btn_overlay.setText(getString(C0978R.string.permission_button_allowed));
         } else {
-            this.btn_overlay.setText("BERIKAN IJIN");
+            this.btn_overlay.setText(getString(C0978R.string.permission_button_grant));
         }
         if (zIsAccessibilityServiceEnabled) {
-            this.btn_access.setText("DIIJINKAN");
+            this.btn_access.setText(getString(C0978R.string.permission_button_allowed));
         } else {
-            this.btn_access.setText("BERIKAN IJIN");
+            this.btn_access.setText(getString(C0978R.string.permission_button_grant));
         }
         if (Build.VERSION.SDK_INT >= 26 && (notificationManager = (NotificationManager) getSystemService(NotificationManager.class)) != null) {
             if (!notificationManager.areNotificationsEnabled()) {
-                this.btn_notif.setText("BERIKAN IJIN");
+                this.btn_notif.setText(getString(C0978R.string.permission_button_grant));
             } else {
-                this.btn_notif.setText("DIIJINKAN");
+                this.btn_notif.setText(getString(C0978R.string.permission_button_allowed));
             }
         }
-        if (this.pref.getString("agreement", "").equals("1") && this.btn_notif.getText().toString().equals("DIIJINKAN") && this.btn_overlay.getText().toString().equals("DIIJINKAN") && this.btn_access.getText().toString().equals("DIIJINKAN")) {
+        String allowedText = getString(C0978R.string.permission_button_allowed);
+        if (this.pref.getString("agreement", "").equals("1") && this.btn_notif.getText().toString().equals(allowedText) && this.btn_overlay.getText().toString().equals(allowedText) && this.btn_access.getText().toString().equals(allowedText)) {
             startActivity(new Intent(getApplicationContext(), (Class<?>) KatrinaActivity.class));
             finish();
         }

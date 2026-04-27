@@ -144,7 +144,7 @@
                                     android:paddingBottom="@dimen/fu1dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Number"/>
+                                    android:text="@string/restore_number_label"/>
                                 <TextView
                                     android:textSize="@dimen/fu9sp"
                                     android:id="@+id/tv_date"
@@ -154,7 +154,7 @@
                                     android:paddingBottom="@dimen/fu1dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Date"
+                                    android:text="@string/restore_date_label"
                                     android:singleLine="true"/>
                                 <TextView
                                     android:textSize="@dimen/fu9sp"
@@ -165,7 +165,7 @@
                                     android:paddingBottom="@dimen/fu2dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Note"
+                                    android:text="@string/restore_note_label"
                                     android:singleLine="true"/>
                             </LinearLayout>
                         </com.google.android.material.card.MaterialCardView>
@@ -204,7 +204,7 @@
                             android:padding="@dimen/fu8dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="Catatan"/>
+                            android:hint="@string/restore_note_hint"/>
                     </com.google.android.material.textfield.TextInputLayout>
                     <HorizontalScrollView
                         android:id="@+id/hscr_1"
@@ -321,7 +321,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/fu4dp"
                             android:layout_marginRight="@dimen/fu2dp"
-                            android:text="Batal"
+                            android:text="@string/btn_batal"
                             android:layout_weight="1"
                             style="@style/Widget.Material3.Button.TextButton"/>
                         <Button
@@ -331,7 +331,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/fu2dp"
                             android:layout_marginRight="@dimen/fu4dp"
-                            android:text="Simpan"
+                            android:text="@string/btn_simpan"
                             android:layout_weight="1"
                             style="@style/Widget.Material3.Button.TextButton"/>
                     </LinearLayout>
@@ -362,7 +362,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:minHeight="0dp"
-                        android:text="Restore settings_ssaid"
+                        android:text="@string/restore_settings_ssaid"
                         app:switchPadding="8dp"
                         style="@style/Widget.Material3.CompoundButton.MaterialSwitch"/>
                     <TextView
@@ -384,7 +384,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:minHeight="0dp"
-                        android:text="Restore system.prop"
+                        android:text="@string/restore_system_prop"
                         app:switchPadding="8dp"
                         style="@style/Widget.Material3.CompoundButton.MaterialSwitch"/>
                 </LinearLayout>
@@ -402,7 +402,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/fu4dp"
                         android:layout_marginRight="@dimen/fu2dp"
-                        android:text="Batal"
+                        android:text="@string/btn_batal"
                         android:layout_weight="1"
                         style="@style/Widget.Material3.Button.TextButton"/>
                     <Button
@@ -412,7 +412,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/fu2dp"
                         android:layout_marginRight="@dimen/fu4dp"
-                        android:text="Restore"
+                        android:text="@string/restore_action_title"
                         android:layout_weight="1"
                         style="@style/Widget.Material3.Button.TextButton"/>
                 </LinearLayout>
@@ -432,7 +432,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/fu8dp"
                     android:layout_marginTop="@dimen/fu8dp"
-                    android:text="Loading"/>
+                    android:text="@string/common_loading"/>
                 <LinearLayout
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
@@ -466,7 +466,7 @@
                         android:padding="@dimen/fu8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mohon menunggu"/>
+                        android:text="@string/restore_progress_message"/>
                 </LinearLayout>
                 <LinearLayout
                     android:orientation="horizontal"
@@ -482,7 +482,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/fu2dp"
-                        android:text="Tutup"
+                        android:text="@string/common_close"
                         android:layout_weight="1"
                         style="@style/Widget.Material3.Button.TextButton"/>
                     <Button
@@ -492,7 +492,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/fu2dp"
-                        android:text="Open"
+                        android:text="@string/common_open"
                         android:layout_weight="1"
                         style="@style/Widget.Material3.Button.TextButton"/>
                 </LinearLayout>

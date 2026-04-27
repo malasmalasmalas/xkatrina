@@ -17,6 +17,21 @@
     <string name="agree_button">Setuju</string>
     <string name="agree_rejected">Anda belum diperbolehkan menggunakan aplikasi ini</string>
 
+    <!-- Permission screen -->
+    <string name="permission_island_short">I\'m Katrina</string>
+    <string name="permission_island_intro">I am Katrina Island &lt;/&gt;</string>
+    <string name="permission_island_tip_menu">Kamu bisa akses menu penting dari sini</string>
+    <string name="permission_island_tip_script">Semua script sh juga bisa dijalankan dari sini</string>
+    <string name="permission_island_tip_ritual">Ritual juga ada di sini :)</string>
+    <string name="permission_island_tip_address">Generator alamat juga ada</string>
+    <string name="permission_desc_notifications">Ijinkan Katrina Island membuat notifikasi di perangkat</string>
+    <string name="permission_desc_overlay">Ijinkan Katrina Island mengambang di atas aplikasi lain</string>
+    <string name="permission_desc_accessibility">Aktifkan Katrina Island pada menu Aksesibilitas</string>
+    <string name="permission_button_grant">Berikan Izin</string>
+    <string name="permission_button_allowed">Diizinkan</string>
+    <string name="permission_channel_name">Notification Channel</string>
+    <string name="permission_channel_desc">Channel untuk menampilkan notifikasi</string>
+
     <!-- Module install -->
     <string name="module_not_installed_title">Module belum terpasang</string>
     <string name="module_not_installed_msg">Fitur \"%1$s\" memerlukan module XKatrina aktif di Magisk/KSU/APatch. Pasang sekarang?</string>
@@ -67,6 +82,9 @@
 
     <!-- Common -->
     <string name="common_ok">Oke</string>
+    <string name="common_open">Buka</string>
+    <string name="common_close">Tutup</string>
+    <string name="common_loading">Loading</string>
     <string name="common_retry">Ulangi</string>
     <string name="toast_hard_random_success">Berhasil diacak (Hard Random)</string>
     <string name="toast_prop_random_success">Berhasil diacak (Prop Random)</string>
@@ -238,6 +256,42 @@
     <string name="toast_bot_disimpan">Pengaturan bot disimpan</string>
     <string name="toast_mengacak">Mengacak…</string>
     <string name="toast_mengedit">Mengedit 1 file prop akan otomatis mengubah nilai dari file prop lainnya</string>
+    <string name="toast_browser_not_found">Tidak ada browser untuk membuka link</string>
+    <string name="toast_package_name_not_found">Package name tidak ditemukan</string>
+    <string name="toast_open_app_failed">Terjadi kesalahan saat mencoba membuka aplikasi</string>
+
+    <!-- Restore dialog -->
+    <string name="restore_number_label">Number</string>
+    <string name="restore_date_label">Date</string>
+    <string name="restore_note_label">Note</string>
+    <string name="restore_note_hint">Catatan</string>
+    <string name="restore_note_empty">Catatan null</string>
+    <string name="restore_date_empty">Date null</string>
+    <string name="restore_allowed">Diizinkan :</string>
+    <string name="restore_not_allowed">Tidak diizinkan :</string>
+    <string name="restore_first_item">Kamu sudah di urutan pertama</string>
+    <string name="restore_last_item">Kamu sudah di urutan terakhir</string>
+    <string name="restore_action_title">Restore</string>
+    <string name="restore_settings_ssaid">Restore settings_ssaid</string>
+    <string name="restore_system_prop">Restore system.prop</string>
+    <string name="restore_process_title">Proses</string>
+    <string name="restore_process_done">Selesai</string>
+    <string name="restore_progress_message">Mohon menunggu</string>
+    <string name="restore_backup_progress">Restore backup\n%1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_position_front">Depan</string>
+    <string name="settings_position_back">Belakang</string>
+    <string name="settings_converting">Sedang mengonversi...</string>
+    <string name="settings_convert_done">Selesai mengonversi %1$d file backup\nDisimpan di %2$s</string>
+
+    <!-- System prop -->
+    <string name="system_prop_scanning_title">Scanning build.prop file</string>
+    <string name="system_prop_apply_title">Menerapkan pergantian prop</string>
+    <string name="system_prop_check_all">Cek all system.prop</string>
+
+    <!-- Shortcut executor -->
+    <string name="shortcut_restarting_apps">Restarting apps...</string>
 
     <!-- Dialog Titles -->
     <string name="dialog_title_konfirmasi">Konfirmasi</string>
