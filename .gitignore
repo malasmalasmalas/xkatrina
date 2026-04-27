@@ -19,6 +19,5 @@ captures
 *.apk
 *.jar
 *.zip
-!app/src/main/assets/univ.zip
 /app/release/
 /app/debug/
