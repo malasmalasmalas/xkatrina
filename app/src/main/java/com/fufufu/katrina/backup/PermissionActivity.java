@@ -87,7 +87,7 @@ public class PermissionActivity extends AppCompatActivity {
     @Override // androidx.fragment.app.FragmentActivity, androidx.activity.ComponentActivity, androidx.core.app.ComponentActivity, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        setContentView(C0978R.layout.permission);
+        setContentView(R.layout.permission);
         initialize(bundle);
         if (ContextCompat.checkSelfPermission(this, "android.permission.READ_EXTERNAL_STORAGE") == -1 || ContextCompat.checkSelfPermission(this, "android.permission.WRITE_EXTERNAL_STORAGE") == -1) {
             ActivityCompat.requestPermissions(this, new String[]{"android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE"}, 1000);
@@ -105,43 +105,54 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     private void initialize(Bundle bundle) {
-        this.ln_base_island = (LinearLayout) findViewById(C0978R.id.ln_base_island);
-        this.ln_image_bg = (LinearLayout) findViewById(C0978R.id.ln_image_bg);
-        this.ln_permission_notif = (LinearLayout) findViewById(C0978R.id.ln_permission_notif);
-        this.ln_permission_overlay = (LinearLayout) findViewById(C0978R.id.ln_permission_overlay);
-        this.ln_permission_access = (LinearLayout) findViewById(C0978R.id.ln_permission_access);
-        this.ln_image1 = (LinearLayout) findViewById(C0978R.id.ln_image1);
-        this.ln_image2 = (LinearLayout) findViewById(C0978R.id.ln_image2);
-        this.ln_island_img = (LinearLayout) findViewById(C0978R.id.ln_island_img);
-        this.tv_katrina = (TextView) findViewById(C0978R.id.tv_katrina);
-        this.tv_03 = (TextView) findViewById(C0978R.id.tv_03);
-        this.btn_notif = (Button) findViewById(C0978R.id.btn_notif);
-        this.tv_01 = (TextView) findViewById(C0978R.id.tv_01);
-        this.btn_overlay = (Button) findViewById(C0978R.id.btn_overlay);
-        this.tv_02 = (TextView) findViewById(C0978R.id.tv_02);
-        this.btn_access = (Button) findViewById(C0978R.id.btn_access);
+        this.ln_base_island = (LinearLayout) findViewById(R.id.ln_base_island);
+        this.ln_image_bg = (LinearLayout) findViewById(R.id.ln_image_bg);
+        this.ln_permission_notif = (LinearLayout) findViewById(R.id.ln_permission_notif);
+        this.ln_permission_overlay = (LinearLayout) findViewById(R.id.ln_permission_overlay);
+        this.ln_permission_access = (LinearLayout) findViewById(R.id.ln_permission_access);
+        this.ln_image1 = (LinearLayout) findViewById(R.id.ln_image1);
+        this.ln_image2 = (LinearLayout) findViewById(R.id.ln_image2);
+        this.ln_island_img = (LinearLayout) findViewById(R.id.ln_island_img);
+        this.tv_katrina = (TextView) findViewById(R.id.tv_katrina);
+        this.tv_03 = (TextView) findViewById(R.id.tv_03);
+        this.btn_notif = (Button) findViewById(R.id.btn_notif);
+        this.tv_01 = (TextView) findViewById(R.id.tv_01);
+        this.btn_overlay = (Button) findViewById(R.id.btn_overlay);
+        this.tv_02 = (TextView) findViewById(R.id.tv_02);
+        this.btn_access = (Button) findViewById(R.id.btn_access);
         this.pref = getSharedPreferences("preferences_ui", 0);
-        this.btn_notif.setOnClickListener(new View.OnClickListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.1
-            @Override // android.view.View.OnClickListener
-            public void onClick(View view) {
-                PermissionActivity.this.startActivity(new Intent("android.settings.APP_NOTIFICATION_SETTINGS").putExtra("android.provider.extra.APP_PACKAGE", PermissionActivity.this.getPackageName()));
-            }
-        });
-        this.btn_overlay.setOnClickListener(new View.OnClickListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.2
-            @Override // android.view.View.OnClickListener
-            public void onClick(View view) {
-                PermissionActivity.this.checkOverlayPermission();
-            }
-        });
-        this.btn_access.setOnClickListener(new View.OnClickListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.3
-            @Override // android.view.View.OnClickListener
-            public void onClick(View view) {
-                PermissionActivity.this.initializeAccessibilityService();
-            }
-        });
+        if (this.btn_notif != null) {
+            this.btn_notif.setOnClickListener(new View.OnClickListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.1
+                @Override // android.view.View.OnClickListener
+                public void onClick(View view) {
+                    PermissionActivity.this.startActivity(new Intent("android.settings.APP_NOTIFICATION_SETTINGS").putExtra("android.provider.extra.APP_PACKAGE", PermissionActivity.this.getPackageName()));
+                }
+            });
+        }
+        if (this.btn_overlay != null) {
+            this.btn_overlay.setOnClickListener(new View.OnClickListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.2
+                @Override // android.view.View.OnClickListener
+                public void onClick(View view) {
+                    PermissionActivity.this.checkOverlayPermission();
+                }
+            });
+        }
+        if (this.btn_access != null) {
+            this.btn_access.setOnClickListener(new View.OnClickListener() { // from class: com.fufufu.katrina.backup.PermissionActivity.3
+                @Override // android.view.View.OnClickListener
+                public void onClick(View view) {
+                    PermissionActivity.this.initializeAccessibilityService();
+                }
+            });
+        }
     }
 
     private void initializeLogic() {
+        if (this.ln_island_img == null || this.tv_katrina == null) {
+            startActivity(new Intent(getApplicationContext(), (Class<?>) KatrinaActivity.class));
+            finish();
+            return;
+        }
         Window window = getWindow();
         if (Build.VERSION.SDK_INT >= 21) {
             window.setStatusBarColor(0);
@@ -839,13 +850,13 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     private void showAGREE() {
-        View viewInflate = getLayoutInflater().inflate(C0978R.layout.agreement, (ViewGroup) null);
+        View viewInflate = getLayoutInflater().inflate(R.layout.agreement, (ViewGroup) null);
         MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(this);
         materialAlertDialogBuilder.setView(viewInflate);
         materialAlertDialogBuilder.setCancelable(false);
-        TextView textView = (TextView) viewInflate.findViewById(C0978R.id.tv_agree);
-        TextView textPrompt = (TextView) viewInflate.findViewById(C0978R.id.tv_agree2);
-        Button button = (Button) viewInflate.findViewById(C0978R.id.btn_agree);
+        TextView textView = (TextView) viewInflate.findViewById(R.id.tv_agree);
+        TextView textPrompt = (TextView) viewInflate.findViewById(R.id.tv_agree2);
+        Button button = (Button) viewInflate.findViewById(R.id.btn_agree);
         if (textPrompt != null) {
             textPrompt.setText(getString(C0978R.string.agree_prompt));
         }

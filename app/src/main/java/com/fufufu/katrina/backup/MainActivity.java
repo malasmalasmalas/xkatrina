@@ -87,40 +87,42 @@ public class MainActivity extends AppCompatActivity {
             finish();
             return;
         }
-        setContentView(C0978R.layout.main);
+        setContentView(R.layout.main);
         initialize(bundle);
         initializeLogic();
     }
 
     private void initialize(Bundle bundle) {
-        this.ln_offline = (LinearLayout) findViewById(C0978R.id.ln_offline);
-        this.ln_online = (LinearLayout) findViewById(C0978R.id.ln_online);
-        this.logo01 = (ImageView) findViewById(C0978R.id.logo01);
-        this.logo02 = (ImageView) findViewById(C0978R.id.logo02);
-        this.logo03 = (ImageView) findViewById(C0978R.id.logo03);
-        this.logo04 = (ImageView) findViewById(C0978R.id.logo04);
-        this.logo05 = (ImageView) findViewById(C0978R.id.logo05);
-        this.logo06 = (ImageView) findViewById(C0978R.id.logo06);
-        this.logo07 = (ImageView) findViewById(C0978R.id.logo07);
-        this.logo08 = (ImageView) findViewById(C0978R.id.logo08);
-        this.logo09 = (ImageView) findViewById(C0978R.id.logo09);
-        this.logo10 = (ImageView) findViewById(C0978R.id.logo10);
-        this.logo11 = (ImageView) findViewById(C0978R.id.logo11);
-        this.logo12 = (ImageView) findViewById(C0978R.id.logo12);
-        this.tv_app = (TextView) findViewById(C0978R.id.tv_app);
-        this.cv_pbar = (MaterialCardView) findViewById(C0978R.id.cv_pbar);
-        this.tv_not_granted = (TextView) findViewById(C0978R.id.tv_not_granted);
-        this.btn_getprop = (Button) findViewById(C0978R.id.btn_getprop);
-        this.pbar_loading = (ProgressBar) findViewById(C0978R.id.pbar_loading);
-        this.im_01 = (ImageView) findViewById(C0978R.id.im_01);
+        this.ln_offline = (LinearLayout) findViewById(R.id.ln_offline);
+        this.ln_online = (LinearLayout) findViewById(R.id.ln_online);
+        this.logo01 = (ImageView) findViewById(R.id.logo01);
+        this.logo02 = (ImageView) findViewById(R.id.logo02);
+        this.logo03 = (ImageView) findViewById(R.id.logo03);
+        this.logo04 = (ImageView) findViewById(R.id.logo04);
+        this.logo05 = (ImageView) findViewById(R.id.logo05);
+        this.logo06 = (ImageView) findViewById(R.id.logo06);
+        this.logo07 = (ImageView) findViewById(R.id.logo07);
+        this.logo08 = (ImageView) findViewById(R.id.logo08);
+        this.logo09 = (ImageView) findViewById(R.id.logo09);
+        this.logo10 = (ImageView) findViewById(R.id.logo10);
+        this.logo11 = (ImageView) findViewById(R.id.logo11);
+        this.logo12 = (ImageView) findViewById(R.id.logo12);
+        this.tv_app = (TextView) findViewById(R.id.tv_app);
+        this.cv_pbar = (MaterialCardView) findViewById(R.id.cv_pbar);
+        this.tv_not_granted = (TextView) findViewById(R.id.tv_not_granted);
+        this.btn_getprop = (Button) findViewById(R.id.btn_getprop);
+        this.pbar_loading = (ProgressBar) findViewById(R.id.pbar_loading);
+        this.im_01 = (ImageView) findViewById(R.id.im_01);
         this.pref = getSharedPreferences("preferences_ui", 0);
         this.prefuser = getSharedPreferences("user_preferences", 0);
         this.prefversion = getSharedPreferences("release_preference", 0);
-        this.btn_getprop.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
-            public void onClick(View view) {
-                MainActivity.this.startActivity(new Intent(MainActivity.this.getApplicationContext(), (Class<?>) ScannerActivity.class));
-            }
-        });
+        if (this.btn_getprop != null) {
+            this.btn_getprop.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
+                public void onClick(View view) {
+                    MainActivity.this.startActivity(new Intent(MainActivity.this.getApplicationContext(), (Class<?>) ScannerActivity.class));
+                }
+            });
+        }
     }
 
     private void initializeLogic() {
@@ -195,6 +197,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void _setFirstUI() {
+        if (this.ln_online == null || this.ln_offline == null || this.btn_getprop == null || this.tv_app == null || this.pbar_loading == null) {
+            startActivity(new Intent(getApplicationContext(), (Class<?>) PermissionActivity.class));
+            finish();
+            return;
+        }
         this.btn_getprop.setVisibility(8);
         try {
             this.prefversion.edit().putString("current", String.valueOf(getPackageManager().getPackageInfo(getPackageName(), 0).versionCode)).commit();
@@ -236,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
         };
         this.runnableIMAGEANIM = runnable;
         this.IMAGEANIM.postDelayed(runnable, 0L);
-        ImageView[] imageViewArr = {(ImageView) findViewById(C0978R.id.logo01), (ImageView) findViewById(C0978R.id.logo03), (ImageView) findViewById(C0978R.id.logo05), (ImageView) findViewById(C0978R.id.logo07), (ImageView) findViewById(C0978R.id.logo09), (ImageView) findViewById(C0978R.id.logo11), (ImageView) findViewById(C0978R.id.logo02), (ImageView) findViewById(C0978R.id.logo04), (ImageView) findViewById(C0978R.id.logo06), (ImageView) findViewById(C0978R.id.logo09), (ImageView) findViewById(C0978R.id.logo10), (ImageView) findViewById(C0978R.id.logo12)};
+        ImageView[] imageViewArr = {(ImageView) findViewById(R.id.logo01), (ImageView) findViewById(R.id.logo03), (ImageView) findViewById(R.id.logo05), (ImageView) findViewById(R.id.logo07), (ImageView) findViewById(R.id.logo09), (ImageView) findViewById(R.id.logo11), (ImageView) findViewById(R.id.logo02), (ImageView) findViewById(R.id.logo04), (ImageView) findViewById(R.id.logo06), (ImageView) findViewById(R.id.logo09), (ImageView) findViewById(R.id.logo10), (ImageView) findViewById(R.id.logo12)};
         ObjectAnimator[] objectAnimatorArr = new ObjectAnimator[6];
         for (int i = 0; i < 6; i++) {
             ObjectAnimator objectAnimatorOfFloat = ObjectAnimator.ofFloat(imageViewArr[i], (Property<View, Float>) View.TRANSLATION_X, -500.0f, 0.0f);
