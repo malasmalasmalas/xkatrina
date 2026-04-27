@@ -676,7 +676,7 @@ public class RitualFragmentActivity extends Fragment {
                     RitualFragmentActivity.this._getPropResult();
                 } else {
                     RitualFragmentActivity.this.tv_response.setVisibility(0);
-                    RitualFragmentActivity.this.tv_response.setText("fufufu tidak dapat menemukan prop");
+                    RitualFragmentActivity.this.tv_response.setText(R.string.ritual_no_prop_found);
                 }
             }
 
@@ -777,15 +777,15 @@ public class RitualFragmentActivity extends Fragment {
     }
 
     public void _setFirstUI() {
-        this.m_timepick.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_gms.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_ssaid.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_nol.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_reboot.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_dalvic.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_norestart.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.mchip_modpes_start.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.mchip_modpes_end.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
+        this.m_timepick.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_gms.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_ssaid.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_nol.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_reboot.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_dalvic.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_norestart.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.mchip_modpes_start.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.mchip_modpes_end.setTypeface(TypefaceCache.getSans(getContext()), 0);
         this._fab.setImageResource(C0978R.drawable.ic_fab_ritual);
         this.fab_editor.setImageResource(C0978R.drawable.ic_fab_ritual);
         this.ln_input_fp.setExpansion(false);
@@ -801,7 +801,7 @@ public class RitualFragmentActivity extends Fragment {
         this.ln_input_prop.setVisibility(0);
         this.ln_input_dump.setVisibility(8);
         this.lv_branch_all.setVisibility(8);
-        this.tv_title.setText("BRAND");
+        this.tv_title.setText(R.string.ritual_title_brand);
         this.auto_input_model.setSingleLine(true);
         if (this.prefos.getString("OSPLUS", "").equals("")) {
             this.prefos.edit().putString("OSPLUS", "15").commit();
@@ -2325,7 +2325,7 @@ public class RitualFragmentActivity extends Fragment {
         } else {
             this.b_update_force = false;
             button.setVisibility(0);
-            button.setText("Nanti");
+            button.setText(R.string.ritual_later);
         }
         button.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
@@ -2869,7 +2869,7 @@ public class RitualFragmentActivity extends Fragment {
 
     public void _onRandomAllEditor() {
         if (this.lm_editor.size() == 0) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Tidak ada data untuk di acak");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_no_random_data));
             return;
         }
         this.s_random_desc = "fufufuwww-user fufufuxxx fufufuyyy.fufufuzzz release-keys";

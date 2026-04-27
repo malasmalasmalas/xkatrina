@@ -846,42 +846,21 @@ public class PermissionActivity extends AppCompatActivity {
         TextView textView = (TextView) viewInflate.findViewById(C0978R.id.tv_agree);
         TextView textPrompt = (TextView) viewInflate.findViewById(C0978R.id.tv_agree2);
         Button button = (Button) viewInflate.findViewById(C0978R.id.btn_agree);
-        final EditText editText = (EditText) viewInflate.findViewById(C0978R.id.et_agree);
-        editText.setFocusable(true);
-        editText.setFocusableInTouchMode(true);
-        final String agreeKeyword = getString(C0978R.string.agree_keyword);
         if (textPrompt != null) {
-            textPrompt.setText(getString(C0978R.string.agree_prompt, agreeKeyword));
+            textPrompt.setText(getString(C0978R.string.agree_prompt));
         }
         Markwon.builder(this).build().setMarkdown(textView, LocalizedAssets.loadMarkdown(this, "agreement.md"));
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (editText.getText().toString().trim().equalsIgnoreCase(agreeKeyword)) {
-                    PermissionActivity.this.pref.edit().putString("agreement", "1").commit();
-                    PermissionActivity.this._checkPermission();
-                    PermissionActivity.this.AGREE.dismiss();
-                    return;
-                }
-                SketchwareUtil.showMessage(PermissionActivity.this.getApplicationContext(), getString(C0978R.string.agree_rejected));
+                PermissionActivity.this.pref.edit().putString("agreement", "1").commit();
+                PermissionActivity.this._checkPermission();
+                PermissionActivity.this.AGREE.dismiss();
             }
         });
         AlertDialog alertDialogCreate = materialAlertDialogBuilder.create();
         this.AGREE = alertDialogCreate;
         alertDialogCreate.show();
-    }
-
-    private String loadMarkdownFromAssets(String str) {
-        try {
-            InputStream inputStreamOpen = getAssets().open(str);
-            byte[] bArr = new byte[inputStreamOpen.available()];
-            inputStreamOpen.read(bArr);
-            inputStreamOpen.close();
-            return new String(bArr);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return "";
-        }
     }
 
     @Deprecated

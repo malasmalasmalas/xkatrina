@@ -675,7 +675,7 @@ public class ScritualFragmentActivity extends Fragment {
                     ScritualFragmentActivity.this._getPropResult();
                 } else {
                     ScritualFragmentActivity.this.tv_response.setVisibility(0);
-                    ScritualFragmentActivity.this.tv_response.setText("fufufu tidak dapat menemukan prop");
+                    ScritualFragmentActivity.this.tv_response.setText(R.string.ritual_no_prop_found);
                 }
             }
 
@@ -800,7 +800,7 @@ public class ScritualFragmentActivity extends Fragment {
         this.ln_input_prop.setVisibility(0);
         this.ln_input_dump.setVisibility(8);
         this.lv_branch_all.setVisibility(8);
-        this.tv_title.setText("BRAND");
+        this.tv_title.setText(R.string.ritual_title_brand);
         this.auto_input_model.setSingleLine(true);
         if (this.prefos.getString("OSPLUS", "").equals("")) {
             this.prefos.edit().putString("OSPLUS", "15").commit();
@@ -2316,7 +2316,7 @@ public class ScritualFragmentActivity extends Fragment {
             } else {
                 this.b_update_force = false;
                 button.setVisibility(0);
-                button.setText("Nanti");
+                button.setText(R.string.ritual_later);
             }
             button.setOnClickListener(new View.OnClickListener() {                 @Override // android.view.View.OnClickListener
                 public void onClick(View view) {
@@ -2767,8 +2767,8 @@ public class ScritualFragmentActivity extends Fragment {
         this.ln_bottom.setVisibility(8);
         this._fab.setVisibility(8);
         if (this.s_resultModule.contains("disable")) {
-            this.tv_not_active.setText("Module Disable");
-            this.tv_note.setText("Aktifkan module XKatrina pada magisk module");
+            this.tv_not_active.setText(C0978R.string.module_disabled_title);
+            this.tv_note.setText(C0978R.string.module_disabled_msg);
             return;
         }
         this.s_remove_old = "rm -rf /data/adb/modules/XKatrina";
@@ -2778,7 +2778,7 @@ public class ScritualFragmentActivity extends Fragment {
         resultExec.getCode();
         this.b_command = resultExec.isSuccess();
         this.s_remove_old = String.join("\n", out);
-        this.tv_not_active.setText("Module tidak aktif");
+        this.tv_not_active.setText(C0978R.string.module_inactive_title);
         this.tv_note.setText(R.string.ritual_module_inactive_note);
         ModuleHelper.extractZip(getContext());
         if (this.btn_install_module != null) {

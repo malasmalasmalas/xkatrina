@@ -7,9 +7,7 @@
     <string name="onb_module_warning">一部機能は XKatrina モジュール (Magisk / KSU / APatch) が必要です。</string>
     <string name="onb_root_required">一部機能には root 権限が必要です。</string>
 
-    <string name="agree_keyword">同意する</string>
-    <string name="agree_prompt">同意する場合は \"%1$s\" と入力してください,</string>
-    <string name="agree_hint">同意しない</string>
+    <string name="agree_prompt">内容を読んで、同意する場合はボタンを押してください。</string>
     <string name="agree_button">同意する</string>
     <string name="agree_rejected">まだ本アプリの使用は許可されていません</string>
 
@@ -170,6 +168,7 @@
     <string name="eternal_mode_update">UPDATE</string>
     <string name="eternal_action_loading">LOADING</string>
     <string name="eternal_action_inject">INJECT</string>
+    <string name="ritual_later">後で</string>
     <string name="ritual_toggle_hide_editor">Hide Editor</string>
     <string name="ritual_toggle_show_editor">Show Editor</string>
     <string name="ritual_pending_replace">KatrinaREPLACEPROP はまだ保留中です</string>

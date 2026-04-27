@@ -400,7 +400,7 @@ public class EternalFragmentActivity extends Fragment {
                     EternalFragmentActivity.this._getPropResult();
                 } else {
                     EternalFragmentActivity.this.tv_response.setVisibility(0);
-                    EternalFragmentActivity.this.tv_response.setText("fufufu tidak dapat menemukan prop");
+                    EternalFragmentActivity.this.tv_response.setText(R.string.ritual_no_prop_found);
                 }
             }
 
@@ -884,8 +884,8 @@ public class EternalFragmentActivity extends Fragment {
             return;
         }
         this.eternal = true;
-        this.extendedfab_eternal.setText("PROP");
-        this.extendedfab_mode.setText("ACAK");
+        this.extendedfab_eternal.setText(R.string.eternal_mode_prop);
+        this.extendedfab_mode.setText(R.string.eternal_mode_random);
         this.ln_base_top.setVisibility(8);
         this.ln_left.setVisibility(8);
         _createRandomProp();
@@ -1258,7 +1258,7 @@ public class EternalFragmentActivity extends Fragment {
             EternalFragmentActivity.this.btn_prop.setEnabled(false);
             EternalFragmentActivity.this.btn_dump.setEnabled(false);
             EternalFragmentActivity.this.btn_dumpall.setEnabled(false);
-            EternalFragmentActivity.this.tv_title.setText("BRAND");
+            EternalFragmentActivity.this.tv_title.setText(R.string.ritual_title_brand);
             EternalFragmentActivity.this.lm_json_brand.clear();
             if (FileUtil.isExistFile(EternalFragmentActivity.this.s_add_prop)) {
                 EternalFragmentActivity eternalFragmentActivity = EternalFragmentActivity.this;
@@ -1412,7 +1412,7 @@ public class EternalFragmentActivity extends Fragment {
             _onCreateJsonProp(0.0d, this.lm_input);
             return;
         }
-        this.til_input_fp.setError("Fingerprint tidak sesuai format");
+        this.til_input_fp.setError(getString(R.string.ritual_invalid_fingerprint));
     }
 
     public void _onGetDumpOnline() {
@@ -1426,7 +1426,7 @@ public class EternalFragmentActivity extends Fragment {
             this.get_branch_all.startRequestNetwork("GET", this.s_dump_head.concat(this.s_input_model), "a", this._get_branch_all_request_listener);
             return;
         }
-        SketchwareUtil.showMessage(getContext().getApplicationContext(), "Input tidak valid");
+        SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_invalid_input));
     }
 
     public void _onConvertOnline() {

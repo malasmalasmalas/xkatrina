@@ -152,7 +152,6 @@ public class KatrinaIslandService extends AccessibilityService {
         accessibilityServiceInfo.eventTypes = 32;
         accessibilityServiceInfo.feedbackType = 16;
         setServiceInfo(accessibilityServiceInfo);
-        stopService(new Intent(this, (Class<?>) ScreenMonitorService.class));
         showFloatingPopup();
         showFloatingExpand();
     }
