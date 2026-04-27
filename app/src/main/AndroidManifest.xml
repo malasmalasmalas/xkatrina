@@ -210,15 +210,6 @@
             android:launchMode="singleInstance"
             android:configChanges="screenSize|orientation|keyboard"/>
 
-        <activity
-            android:label="Wall"
-            android:name="com.fufufu.katrina.backup.WallActivity"
-            android:clearTaskOnLaunch="true"
-            android:stateNotNeeded="true"
-            android:excludeFromRecents="true"
-            android:launchMode="singleInstance"
-            android:configChanges="screenSize|orientation|keyboard"/>
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
@@ -246,8 +237,6 @@
         <service
             android:label="Katrina Bubble Service"
             android:name="com.fufufu.katrina.backup.FloatingExpandService"/>
-
-        <service android:name="com.fufufu.katrina.backup.ScreenMonitorService"/>
 
         <service
             android:name="com.fufufu.katrina.backup.AssistService"

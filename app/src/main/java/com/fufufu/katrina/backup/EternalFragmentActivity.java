@@ -870,8 +870,8 @@ public class EternalFragmentActivity extends Fragment {
     public void _onFabEternal() {
         if (this.eternal) {
             this.eternal = false;
-            this.extendedfab_eternal.setText("AUTO");
-            this.extendedfab_mode.setText("UPDATE");
+            this.extendedfab_eternal.setText(R.string.eternal_mode_auto);
+            this.extendedfab_mode.setText(R.string.eternal_mode_update);
             this.ln_base_top.setVisibility(0);
             this.ln_left.setVisibility(0);
             this.oa1.cancel();
@@ -880,7 +880,7 @@ public class EternalFragmentActivity extends Fragment {
             this.oa1.setFloatValues(-500.0f, 0.0f);
             this.oa1.setDuration(300L);
             this.oa1.start();
-            _setPropType("Termux Prop");
+            _setPropType(getString(R.string.feature_buildprop));
             return;
         }
         this.eternal = true;
@@ -895,7 +895,7 @@ public class EternalFragmentActivity extends Fragment {
         if (this.eternal) {
             _createRandomProp();
         } else if (this.lm_prop.size() == 0) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Harap setting prop");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.eternal_need_prop));
         } else {
             _onUpdateProp();
         }
@@ -1059,7 +1059,7 @@ public class EternalFragmentActivity extends Fragment {
         resultExec.getCode();
         this.b_command = resultExec.isSuccess();
         this.s_commandResult = String.join("\n", out);
-        this.extendedfab_inject.setText("INJECT");
+        this.extendedfab_inject.setText(R.string.eternal_action_inject);
         _checkEternalFile();
         _showDialogComplete();
     }
@@ -1078,11 +1078,11 @@ public class EternalFragmentActivity extends Fragment {
         Button button = (Button) viewInflate.findViewById(C0978R.id.btn_1);
         Button button2 = (Button) viewInflate.findViewById(C0978R.id.btn_2);
         if (this.s_commandResult.equals("\n") || this.s_commandResult.equals("")) {
-            textView.setText("Berhasil");
+            textView.setText(R.string.eternal_success);
             textView2.setText(this.s_prop_result);
         } else {
-            textView.setText("Gagal");
-            textView2.setText("// Gagal memproses");
+            textView.setText(R.string.eternal_failed);
+            textView2.setText(R.string.eternal_failed_process);
         }
         button.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
             public void onClick(View view) {

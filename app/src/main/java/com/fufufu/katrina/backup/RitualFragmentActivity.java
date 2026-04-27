@@ -2598,7 +2598,7 @@ public class RitualFragmentActivity extends Fragment {
         Animation animationLoadAnimation = AnimationUtils.loadAnimation(requireContext(), C0978R.anim.m3_motion_fade_enter);
         Animation animationLoadAnimation2 = AnimationUtils.loadAnimation(requireContext(), C0978R.anim.m3_motion_fade_exit);
         if (this.pref.getString("show_fragment", "").equals("show_editor")) {
-            this.switch_editor.setText("Hide Editor");
+            this.switch_editor.setText(R.string.ritual_toggle_hide_editor);
             this.switch_editor.setChecked(true);
             this.ln_bottom.startAnimation(animationLoadAnimation2);
             this.ln_bottom.setVisibility(8);
@@ -2610,7 +2610,7 @@ public class RitualFragmentActivity extends Fragment {
             _setFirstUIEditor();
             return;
         }
-        this.switch_editor.setText("Show Editor");
+        this.switch_editor.setText(R.string.ritual_toggle_show_editor);
         this.switch_editor.setChecked(false);
         this.ln_editor.startAnimation(animationLoadAnimation2);
         this.ln_editor.setVisibility(8);

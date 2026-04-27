@@ -1561,7 +1561,7 @@ public class ScritualFragmentActivity extends Fragment {
             this.katrinaREPLACEPROP = katrinaREPLACEPROP2;
             katrinaREPLACEPROP2.execute(new Void[0]);
         } else if (this.katrinaREPLACEPROP.getStatus() == AsyncTask.Status.PENDING) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Proses KatrinaREPLACEPROP masih pending");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_pending_replace));
         }
     }
 
@@ -1806,7 +1806,7 @@ public class ScritualFragmentActivity extends Fragment {
             this.katrinaCLEANERWIPE = katrinaCLEANERWIPE2;
             katrinaCLEANERWIPE2.execute(new Void[0]);
         } else if (this.katrinaCLEANERWIPE.getStatus() == AsyncTask.Status.PENDING) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Proses KatrinaCLEANERWIPE masih pending");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_pending_cleaner));
         }
     }
 
@@ -1978,7 +1978,7 @@ public class ScritualFragmentActivity extends Fragment {
             this.katrinaPROPDUMP = katrinaPROPDUMP2;
             katrinaPROPDUMP2.execute(new Void[0]);
         } else if (this.katrinaPROPDUMP.getStatus() == AsyncTask.Status.PENDING) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Proses KatrinaPROPDUMP masih pending");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_pending_dump));
         }
     }
 
@@ -2593,7 +2593,7 @@ public class ScritualFragmentActivity extends Fragment {
         Animation animationLoadAnimation = AnimationUtils.loadAnimation(requireContext(), C0978R.anim.m3_motion_fade_enter);
         Animation animationLoadAnimation2 = AnimationUtils.loadAnimation(requireContext(), C0978R.anim.m3_motion_fade_exit);
         if (this.pref.getString("show_fragment", "").equals("show_editor")) {
-            this.switch_editor.setText("Hide Editor");
+            this.switch_editor.setText(R.string.ritual_toggle_hide_editor);
             this.switch_editor.setChecked(true);
             this.ln_bottom.startAnimation(animationLoadAnimation2);
             this.ln_bottom.setVisibility(8);
@@ -2605,7 +2605,7 @@ public class ScritualFragmentActivity extends Fragment {
             _setFirstUIEditor();
             return;
         }
-        this.switch_editor.setText("Show Editor");
+        this.switch_editor.setText(R.string.ritual_toggle_show_editor);
         this.switch_editor.setChecked(false);
         this.ln_editor.startAnimation(animationLoadAnimation2);
         this.ln_editor.setVisibility(8);
@@ -2648,7 +2648,7 @@ public class ScritualFragmentActivity extends Fragment {
             this.katrinaREADEXISTPROP = katrinaREADEXISTPROP2;
             katrinaREADEXISTPROP2.execute(new Void[0]);
         } else if (this.katrinaREADEXISTPROP.getStatus() == AsyncTask.Status.PENDING) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Proses KatrinaREADEXISTPROP masih pending");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_pending_read));
         }
     }
 
@@ -2712,7 +2712,7 @@ public class ScritualFragmentActivity extends Fragment {
             this.katrinaCEKMODULE = katrinaCEKMODULE2;
             katrinaCEKMODULE2.execute(new Void[0]);
         } else if (this.katrinaCEKMODULE.getStatus() == AsyncTask.Status.PENDING) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Proses KatrinaCEKMODULE masih pending");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_pending_module));
         }
     }
 
@@ -2779,7 +2779,7 @@ public class ScritualFragmentActivity extends Fragment {
         this.b_command = resultExec.isSuccess();
         this.s_remove_old = String.join("\n", out);
         this.tv_not_active.setText("Module tidak aktif");
-        this.tv_note.setText("Tekan tombol di bawah untuk memasang module XKatrina secara otomatis.");
+        this.tv_note.setText(R.string.ritual_module_inactive_note);
         ModuleHelper.extractZip(getContext());
         if (this.btn_install_module != null) {
             this.btn_install_module.setVisibility(0);

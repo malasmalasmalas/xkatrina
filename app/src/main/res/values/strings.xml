@@ -313,6 +313,17 @@
     <string name="eternal_mode_update">UPDATE</string>
     <string name="eternal_action_loading">LOADING</string>
     <string name="eternal_action_inject">INJECT</string>
+    <string name="ritual_toggle_hide_editor">Hide Editor</string>
+    <string name="ritual_toggle_show_editor">Show Editor</string>
+    <string name="ritual_pending_replace">Proses KatrinaREPLACEPROP masih pending</string>
+    <string name="ritual_pending_cleaner">Proses KatrinaCLEANERWIPE masih pending</string>
+    <string name="ritual_pending_dump">Proses KatrinaPROPDUMP masih pending</string>
+    <string name="ritual_pending_read">Proses KatrinaREADEXISTPROP masih pending</string>
+    <string name="ritual_pending_module">Proses KatrinaCEKMODULE masih pending</string>
+    <string name="ritual_module_inactive_note">Tekan tombol di bawah untuk memasang module XKatrina secara otomatis.</string>
+    <string name="eternal_success">Berhasil</string>
+    <string name="eternal_failed">Gagal</string>
+    <string name="eternal_failed_process">// Gagal memproses</string>
 
     <!-- Dialog Titles -->
     <string name="dialog_title_konfirmasi">Konfirmasi</string>
