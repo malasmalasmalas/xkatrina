@@ -124,10 +124,7 @@ public class KatrinaIslandService extends AccessibilityService {
     public void onCreate() {
         super.onCreate();
         this.vibrate = (Vibrator) getSystemService("vibrator");
-        this.connectivityReceiver = new ConnectivityReceiver(this, null);
-        IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
-        registerReceiver(this.connectivityReceiver, intentFilter);
+        this.connectivityReceiver = null;
         SharedPreferences sharedPreferences = getSharedPreferences("preferences_xy", 0);
         this.posX = sharedPreferences.getInt("posX", 0);
         this.posY = sharedPreferences.getInt("posY", 0);
@@ -164,7 +161,9 @@ public class KatrinaIslandService extends AccessibilityService {
             this.windowManager.removeView(view);
         }
         getSharedPreferences("floating_island_pref", 0).unregisterOnSharedPreferenceChangeListener(this.preferenceChangeListener);
-        unregisterReceiver(this.connectivityReceiver);
+        if (this.connectivityReceiver != null) {
+            unregisterReceiver(this.connectivityReceiver);
+        }
     }
 
         public void updateFloatingPopupSize(int i, int i2) {
@@ -445,6 +444,9 @@ public class KatrinaIslandService extends AccessibilityService {
 
         /* JADX WARN: Type inference failed for: r0v1, types: [com.fufufu.katrina.backup.KatrinaIslandService$5] */
     public void startCountdownTimer() {
+        if (this.windowManager == null) {
+            this.windowManager = (WindowManager) getSystemService("window");
+        }
         CountDownTimer countDownTimer = this.countDownTimer;
         if (countDownTimer != null) {
             countDownTimer.cancel();
@@ -477,6 +479,9 @@ public class KatrinaIslandService extends AccessibilityService {
         this.ln_content_notif = (LinearLayout) this.floatingNotif.findViewById(C0978R.id.ln_content_notif);
         this.tv_message = (TextView) this.floatingNotif.findViewById(C0978R.id.tv_message);
         checkPreferences();
+        if (frameLayout == null || this.ln_content_notif == null || this.tv_message == null || this.windowManager == null) {
+            return;
+        }
         this.tv_message.setText(this.s_notif);
         if (this.s_notif.contains("NEW")) {
             this.tv_message.setTextColor(-16711936);
@@ -959,39 +964,7 @@ public class KatrinaIslandService extends AccessibilityService {
 
         @Override // android.content.BroadcastReceiver
         public void onReceive(Context context, Intent intent) {
-            ConnectivityManager connectivityManager;
-            String action = intent.getAction();
-            if (action == null || !action.equals("android.net.conn.CONNECTIVITY_CHANGE") || (connectivityManager = (ConnectivityManager) KatrinaIslandService.this.getSystemService("connectivity")) == null) {
-                return;
-            }
-            if (!(connectivityManager.getActiveNetworkInfo() != null && connectivityManager.getActiveNetworkInfo().isConnected()) || KatrinaIslandService.this.isAirplaneModeOn(context)) {
-                return;
-            }
-            KatrinaIslandService katrinaIslandService = KatrinaIslandService.this;
-            katrinaIslandService.prefip = katrinaIslandService.getSharedPreferences("preferences_ip", 0);
-            String ipAddress = getIpAddress(context);
-            KatrinaIslandService.this.getnow = Calendar.getInstance();
-            String str = new SimpleDateFormat("ddMMMyyyy").format(KatrinaIslandService.this.getnow.getTime());
-            String string = KatrinaIslandService.this.prefip.getString("ip_today", "");
-            KatrinaIslandService.this.ls_ip.clear();
-            if (!string.equals("") && string.contains(str)) {
-                KatrinaIslandService.this.ls_ip = (ArrayList) new Gson().fromJson(string, new TypeToken<ArrayList<String>>() {                 }.getType());
-                if (KatrinaIslandService.this.ls_ip.contains(ipAddress)) {
-                    KatrinaIslandService.this.mode = "OLD : " + ipAddress;
-                } else {
-                    KatrinaIslandService.this.mode = "NEW : " + ipAddress;
-                    KatrinaIslandService.this.ls_ip.add(ipAddress);
-                    KatrinaIslandService.this.prefip.edit().putString("ip_today", new Gson().toJson(KatrinaIslandService.this.ls_ip)).apply();
-                }
-            } else {
-                KatrinaIslandService.this.mode = "NEW : " + ipAddress;
-                KatrinaIslandService.this.ls_ip.add(str);
-                KatrinaIslandService.this.ls_ip.add(ipAddress);
-                KatrinaIslandService.this.prefip.edit().putString("ip_today", new Gson().toJson(KatrinaIslandService.this.ls_ip)).apply();
-            }
-            KatrinaIslandService katrinaIslandService2 = KatrinaIslandService.this;
-            katrinaIslandService2.s_notif = katrinaIslandService2.mode;
-            KatrinaIslandService.this.showFloatingNotif();
+            return;
         }
 
         private String getIpAddress(Context context) {
