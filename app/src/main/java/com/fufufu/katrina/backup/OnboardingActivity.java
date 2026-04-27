@@ -28,34 +28,38 @@ public class OnboardingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(C0978R.layout.onboarding);
+        setContentView(R.layout.onboarding);
 
-        final ChipGroup cg = findViewById(C0978R.id.cg_lang);
-        MaterialButton btnContinue = findViewById(C0978R.id.btn_continue);
+        final ChipGroup cg = findViewById(R.id.cg_lang);
+        MaterialButton btnContinue = findViewById(R.id.btn_continue);
 
         final String currentTag = LocaleHelper.getSavedTag(this);
         final int[] checkedId = {-1};
-        for (int i = 0; i < LocaleHelper.SUPPORTED_TAGS.length; i++) {
-            final String tag = LocaleHelper.SUPPORTED_TAGS[i];
-            Chip chip = new Chip(this);
-            chip.setId(View.generateViewId());
-            chip.setText(LocaleHelper.SUPPORTED_NAMES[i]);
-            chip.setCheckable(true);
-            chip.setClickable(true);
-            cg.addView(chip);
-            if (tag.equals(currentTag)) {
-                chip.setChecked(true);
-                checkedId[0] = chip.getId();
-            }
-            chip.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    LocaleHelper.setLocale(OnboardingActivity.this, tag);
-                    recreate();
+        if (cg != null) {
+            for (int i = 0; i < LocaleHelper.SUPPORTED_TAGS.length; i++) {
+                final String tag = LocaleHelper.SUPPORTED_TAGS[i];
+                Chip chip = new Chip(this);
+                chip.setId(View.generateViewId());
+                chip.setText(LocaleHelper.SUPPORTED_NAMES[i]);
+                chip.setCheckable(true);
+                chip.setClickable(true);
+                cg.addView(chip);
+                if (tag.equals(currentTag)) {
+                    chip.setChecked(true);
+                    checkedId[0] = chip.getId();
                 }
-            });
+                chip.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        LocaleHelper.setLocale(OnboardingActivity.this, tag);
+                        recreate();
+                    }
+                });
+            }
+            if (checkedId[0] != -1) {
+                cg.check(checkedId[0]);
+            }
         }
-        if (checkedId[0] != -1) cg.check(checkedId[0]);
 
         btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
