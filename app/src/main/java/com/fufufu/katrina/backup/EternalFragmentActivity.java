@@ -589,8 +589,8 @@ public class EternalFragmentActivity extends Fragment {
         this.ln_input_fp.setOrientation(1);
         this.lv_branch_all.setVerticalScrollBarEnabled(false);
         this.eternal = true;
-        this.extendedfab_eternal.setText("PROP");
-        this.extendedfab_mode.setText("ACAK");
+        this.extendedfab_eternal.setText(R.string.eternal_mode_prop);
+        this.extendedfab_mode.setText(R.string.eternal_mode_random);
         this.ln_left.setVisibility(8);
         this.pbar_eternal.setVisibility(8);
         this.ln_base_top.setVisibility(8);
@@ -753,10 +753,10 @@ public class EternalFragmentActivity extends Fragment {
     }
 
     public void _onLoadBrand() {
-        this.tv_prop_type.setText("Termux Prop");
+        this.tv_prop_type.setText(R.string.feature_buildprop);
         this.lm_json_brand.clear();
         try {
-            this.lm_json_brand = (ArrayList) new Gson().fromJson(SketchwareUtil.copyFromInputStream(getContext().getAssets().open("prop.json")), new TypeToken<ArrayList<HashMap<String, Object>>>() {             }.getType());
+            this.lm_json_brand = RitualAssetRepository.loadPropData(getContext());
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_brand));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
             this.btn_back.setVisibility(8);
@@ -770,7 +770,7 @@ public class EternalFragmentActivity extends Fragment {
         this.lm_json_model = (ArrayList) new Gson().fromJson(this.s_click_brand, new TypeToken<ArrayList<HashMap<String, Object>>>() {         }.getType());
         this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_model));
         this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-        this.btn_back.setText("BACK TO BRAND");
+        this.btn_back.setText(R.string.ritual_back_to_brand);
         this.tv_title.setText(this.s_rv);
         this.btn_back.setVisibility(0);
     }
@@ -791,7 +791,7 @@ public class EternalFragmentActivity extends Fragment {
     public void _onAdvanceBindModel(View view, TextView textView, TextView textView2, final double d, final ArrayList<HashMap<String, Object>> arrayList) {
         int i = (int) d;
         textView.setText(arrayList.get(i).get("DEVICENAME").toString());
-        textView2.setText("OS : ".concat(arrayList.get(i).get("RELEASE").toString()));
+        textView2.setText(getString(R.string.ritual_os_format, arrayList.get(i).get("RELEASE").toString()));
         view.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
             public void onClick(View view2) {
                 EternalFragmentActivity.this._onCreateJsonProp(d, arrayList);
@@ -803,7 +803,7 @@ public class EternalFragmentActivity extends Fragment {
         if (this.btn_back.getText().toString().equals("BACK TO BRAND")) {
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_brand));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-            this.tv_title.setText("BRAND");
+            this.tv_title.setText(R.string.ritual_title_brand);
             this.btn_back.setVisibility(8);
             this.lm_prop.clear();
             ((BaseAdapter) this.lv_1.getAdapter()).notifyDataSetChanged();
@@ -812,7 +812,7 @@ public class EternalFragmentActivity extends Fragment {
         if (this.btn_back.getText().toString().equals("BACK TO MODEL")) {
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_model));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-            this.btn_back.setText("BACK TO BRAND");
+            this.btn_back.setText(R.string.ritual_back_to_brand);
             this.tv_title.setText(this.s_rv);
             this.rv_1.setVisibility(0);
             this.btn_back.setVisibility(0);
@@ -978,10 +978,10 @@ public class EternalFragmentActivity extends Fragment {
         ArrayList<HashMap<String, Object>> arrayList = (ArrayList) new Gson().fromJson(this.prefall.getString("all_app_eternal", ""), new TypeToken<ArrayList<HashMap<String, Object>>>() {         }.getType());
         this.lm_eternal_app = arrayList;
         if (arrayList.size() == 0) {
-            textView2.setText("Tidak ada aplikasi yang di patch oleh fufufu");
+            textView2.setText(R.string.eternal_empty_apps);
             listView.setVisibility(8);
         } else {
-            textView2.setText("Daftar Eternal");
+            textView2.setText(R.string.eternal_list_title);
             listView.setVisibility(0);
             listView.setDivider(null);
             listView.setDividerHeight(0);
@@ -1015,14 +1015,14 @@ public class EternalFragmentActivity extends Fragment {
 
     public void _onInjectEternal() {
         if (this.lm_prop.size() == 0) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Harap pilih prop");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.eternal_need_prop));
             return;
         }
         if (this.prefeternal.getString("choose_package_eternal", "").equals("")) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Harap pilih aplikasi");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.eternal_need_app));
             return;
         }
-        this.extendedfab_inject.setText("LOADING");
+        this.extendedfab_inject.setText(R.string.eternal_action_loading);
         this.s_prop_result = new GsonBuilder().setPrettyPrinting().create().toJson(this.lm_prop);
         try {
             JSONArray jSONArray = new JSONArray(this.s_prop_result);

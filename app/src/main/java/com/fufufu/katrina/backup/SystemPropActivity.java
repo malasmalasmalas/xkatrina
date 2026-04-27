@@ -1265,7 +1265,7 @@ public class SystemPropActivity extends AppCompatActivity {
         this.s_getmodel = "";
         this.s_getproduct = "";
         try {
-            this.lm_getrandom = (ArrayList) new Gson().fromJson(SketchwareUtil.copyFromInputStream(getAssets().open("prop.json")), new TypeToken<ArrayList<HashMap<String, Object>>>() {             }.getType());
+            this.lm_getrandom = RitualAssetRepository.loadPropData(this);
             while (true) {
                 if (!this.s_getbrand.equals("") && !this.s_getdevice.equals("") && !this.s_getmodel.equals("") && !this.s_getproduct.equals("")) {
                     break;

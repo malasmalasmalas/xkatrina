@@ -776,15 +776,15 @@ public class ScritualFragmentActivity extends Fragment {
     }
 
     public void _setFirstUI() {
-        this.m_timepick.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_gms.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_ssaid.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_nol.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_reboot.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_dalvic.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.m_norestart.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.mchip_modpes_start.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
-        this.mchip_modpes_end.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "fonts/sans.ttf"), 0);
+        this.m_timepick.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_gms.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_ssaid.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_nol.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_reboot.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_dalvic.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.m_norestart.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.mchip_modpes_start.setTypeface(TypefaceCache.getSans(getContext()), 0);
+        this.mchip_modpes_end.setTypeface(TypefaceCache.getSans(getContext()), 0);
         this._fab.setImageResource(C0978R.drawable.ic_fab_ritual);
         this.fab_editor.setImageResource(C0978R.drawable.ic_fab_ritual);
         this.ln_input_fp.setExpansion(false);
@@ -985,7 +985,7 @@ public class ScritualFragmentActivity extends Fragment {
             ScritualFragmentActivity.this.btn_prop.setEnabled(false);
             ScritualFragmentActivity.this.btn_dump.setEnabled(false);
             ScritualFragmentActivity.this.btn_dumpall.setEnabled(false);
-            ScritualFragmentActivity.this.tv_title.setText("BRAND");
+            ScritualFragmentActivity.this.tv_title.setText(R.string.ritual_title_brand);
             ScritualFragmentActivity.this.lm_json_brand.clear();
             if (FileUtil.isExistFile(ScritualFragmentActivity.this.s_add_prop)) {
                 ScritualFragmentActivity scritualFragmentActivity = ScritualFragmentActivity.this;
@@ -999,17 +999,14 @@ public class ScritualFragmentActivity extends Fragment {
 
                 @Override // android.os.AsyncTask
         public Void doInBackground(Void... voidArr) {
-            while (!isCancelled()) {
-                try {
-                    InputStream inputStreamOpen = ScritualFragmentActivity.this.getContext().getAssets().open("prop.json");
-                    ScritualFragmentActivity.this.lm_json_asset = (ArrayList) new Gson().fromJson(SketchwareUtil.copyFromInputStream(inputStreamOpen), new TypeToken<ArrayList<HashMap<String, Object>>>() {                     }.getType());
-                    ScritualFragmentActivity.this.lm_json_brand.addAll(ScritualFragmentActivity.this.lm_json_asset);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                if (!isCancelled()) {
-                    return null;
-                }
+            if (isCancelled()) {
+                return null;
+            }
+            try {
+                ScritualFragmentActivity.this.lm_json_asset = RitualAssetRepository.loadPropData(ScritualFragmentActivity.this.getContext());
+                ScritualFragmentActivity.this.lm_json_brand.addAll(ScritualFragmentActivity.this.lm_json_asset);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
             return null;
         }
@@ -1037,7 +1034,7 @@ public class ScritualFragmentActivity extends Fragment {
         this.lm_json_model = (ArrayList) new Gson().fromJson(this.s_click_brand, new TypeToken<ArrayList<HashMap<String, Object>>>() {         }.getType());
         this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_model));
         this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-        this.btn_back.setText("BACK TO BRAND");
+        this.btn_back.setText(R.string.ritual_back_to_brand);
         this.tv_title.setText(this.s_rv);
         this.btn_back.setVisibility(0);
     }
@@ -1058,7 +1055,7 @@ public class ScritualFragmentActivity extends Fragment {
     public void _onAdvanceBindModel(View view, TextView textView, TextView textView2, final double d, final ArrayList<HashMap<String, Object>> arrayList) {
         int i = (int) d;
         textView.setText(arrayList.get(i).get("DEVICENAME").toString());
-        textView2.setText("OS : ".concat(arrayList.get(i).get("RELEASE").toString()));
+        textView2.setText(getString(R.string.ritual_os_format, arrayList.get(i).get("RELEASE").toString()));
         view.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
             public void onClick(View view2) {
                 ScritualFragmentActivity.this.s_rv2 = ((HashMap) arrayList.get((int) d)).get("DEVICENAME").toString();
@@ -1080,12 +1077,12 @@ public class ScritualFragmentActivity extends Fragment {
         } else if (this.btn_back.getText().toString().equals("BACK TO BRAND")) {
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_brand));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-            this.tv_title.setText("BRAND");
+            this.tv_title.setText(R.string.ritual_title_brand);
             this.btn_back.setVisibility(8);
         } else if (this.btn_back.getText().toString().equals("BACK TO MODEL")) {
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_model));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-            this.btn_back.setText("BACK TO BRAND");
+            this.btn_back.setText(R.string.ritual_back_to_brand);
             this.tv_title.setText(this.s_rv);
             this.rv_1.setVisibility(0);
             this.btn_back.setVisibility(0);
@@ -1106,7 +1103,7 @@ public class ScritualFragmentActivity extends Fragment {
     }
 
     public void _onModelLoadProp() {
-        this.btn_back.setText("BACK TO MODEL");
+        this.btn_back.setText(R.string.ritual_back_to_model);
         this.tv_title.setText(this.s_rv2);
         this.rv_1.setVisibility(8);
         this.rv_2.setVisibility(0);
@@ -1708,7 +1705,7 @@ public class ScritualFragmentActivity extends Fragment {
             MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(requireContext());
             materialAlertDialogBuilder.setView(viewInflate);
             materialAlertDialogBuilder.setCancelable(false);
-            ((TextView) viewInflate.findViewById(C0978R.id.tv_uni_dialog)).setText("Mohon menunggu...");
+            ((TextView) viewInflate.findViewById(C0978R.id.tv_uni_dialog)).setText(R.string.ritual_waiting);
             AlertDialog alertDialogCreate = materialAlertDialogBuilder.create();
             this.LOADING = alertDialogCreate;
             alertDialogCreate.show();
@@ -1932,7 +1929,7 @@ public class ScritualFragmentActivity extends Fragment {
             _onModelLoadProp();
             return;
         }
-        this.til_input_fp.setError("Fingerprint tidak sesuai format");
+        this.til_input_fp.setError(getString(R.string.ritual_invalid_fingerprint));
     }
 
     public void _setPropType(String str) {
@@ -2013,17 +2010,14 @@ public class ScritualFragmentActivity extends Fragment {
 
                 @Override // android.os.AsyncTask
         public Void doInBackground(Void... voidArr) {
-            while (!isCancelled()) {
-                try {
-                    InputStream inputStreamOpen = ScritualFragmentActivity.this.getContext().getAssets().open("dump.json");
-                    ScritualFragmentActivity.this.lm_json_asset = (ArrayList) new Gson().fromJson(SketchwareUtil.copyFromInputStream(inputStreamOpen), new TypeToken<ArrayList<HashMap<String, Object>>>() {                     }.getType());
-                    ScritualFragmentActivity.this.lm_json_brand.addAll(ScritualFragmentActivity.this.lm_json_asset);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                if (!isCancelled()) {
-                    return null;
-                }
+            if (isCancelled()) {
+                return null;
+            }
+            try {
+                ScritualFragmentActivity.this.lm_json_asset = RitualAssetRepository.loadDumpData(ScritualFragmentActivity.this.getContext());
+                ScritualFragmentActivity.this.lm_json_brand.addAll(ScritualFragmentActivity.this.lm_json_asset);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
             return null;
         }
@@ -2205,7 +2199,7 @@ public class ScritualFragmentActivity extends Fragment {
             this.get_branch_all.startRequestNetwork("GET", this.s_dump_head.concat(this.s_input_model), "a", this._get_branch_all_request_listener);
             return;
         }
-        SketchwareUtil.showMessage(getContext().getApplicationContext(), "Input tidak valid");
+        SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_invalid_input));
     }
 
     public void _onConvertOnline() {
@@ -2809,7 +2803,7 @@ public class ScritualFragmentActivity extends Fragment {
 
     public void _onRandomAllEditor() {
         if (this.lm_editor.size() == 0) {
-            SketchwareUtil.showMessage(getContext().getApplicationContext(), "Tidak ada data untuk di acak");
+            SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_no_random_data));
             return;
         }
         this.s_random_desc = "fufufuwww-user fufufuxxx fufufuyyy.fufufuzzz release-keys";
@@ -3932,35 +3926,35 @@ public class ScritualFragmentActivity extends Fragment {
             Chip chip47 = (Chip) view.findViewById(C0978R.id.m_reboot);
             Chip chip48 = (Chip) view.findViewById(C0978R.id.m_dalvic);
             Chip chip49 = (Chip) view.findViewById(C0978R.id.m_norestart);
-            chip23.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip24.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip25.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip26.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip27.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip28.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip29.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip30.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip31.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip32.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip33.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip34.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip35.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip36.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip37.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip38.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip39.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip40.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip41.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip42.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip43.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip44.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip45.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip46.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip47.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip48.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip49.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip21.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
-            chip22.setTypeface(Typeface.createFromAsset(ScritualFragmentActivity.this.getContext().getAssets(), "fonts/sans.ttf"), 0);
+            chip23.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip24.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip25.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip26.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip27.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip28.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip29.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip30.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip31.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip32.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip33.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip34.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip35.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip36.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip37.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip38.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip39.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip40.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip41.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip42.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip43.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip44.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip45.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip46.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip47.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip48.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip49.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip21.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
+            chip22.setTypeface(TypefaceCache.getSans(ScritualFragmentActivity.this.getContext()), 0);
             chip42.setText("  OS ".concat(ScritualFragmentActivity.this.prefos.getString("OSPLUS", "").concat("  ")));
             if (this._data.get(i).get("DEVICE").toString().equals("true")) {
                 chip23.setChecked(true);

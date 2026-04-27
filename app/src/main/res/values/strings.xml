@@ -293,6 +293,27 @@
     <!-- Shortcut executor -->
     <string name="shortcut_restarting_apps">Restarting apps...</string>
 
+    <!-- Ritual / Eternal -->
+    <string name="ritual_title_brand">BRAND</string>
+    <string name="ritual_back_to_brand">BACK TO BRAND</string>
+    <string name="ritual_back_to_model">BACK TO MODEL</string>
+    <string name="ritual_os_format">OS : %1$s</string>
+    <string name="ritual_waiting">Mohon menunggu...</string>
+    <string name="ritual_invalid_fingerprint">Fingerprint tidak sesuai format</string>
+    <string name="ritual_invalid_input">Input tidak valid</string>
+    <string name="ritual_no_random_data">Tidak ada data untuk diacak</string>
+    <string name="ritual_no_prop_found">fufufu tidak dapat menemukan prop</string>
+    <string name="eternal_need_prop">Harap pilih prop</string>
+    <string name="eternal_need_app">Harap pilih aplikasi</string>
+    <string name="eternal_empty_apps">Tidak ada aplikasi yang di-patch oleh fufufu</string>
+    <string name="eternal_list_title">Daftar Eternal</string>
+    <string name="eternal_mode_prop">PROP</string>
+    <string name="eternal_mode_random">ACAK</string>
+    <string name="eternal_mode_auto">AUTO</string>
+    <string name="eternal_mode_update">UPDATE</string>
+    <string name="eternal_action_loading">LOADING</string>
+    <string name="eternal_action_inject">INJECT</string>
+
     <!-- Dialog Titles -->
     <string name="dialog_title_konfirmasi">Konfirmasi</string>
     <string name="dialog_title_pilih_aplikasi">Pilih Aplikasi</string>

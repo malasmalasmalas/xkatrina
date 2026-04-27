@@ -988,7 +988,7 @@ public class RitualFragmentActivity extends Fragment {
             RitualFragmentActivity.this.btn_prop.setEnabled(false);
             RitualFragmentActivity.this.btn_dump.setEnabled(false);
             RitualFragmentActivity.this.btn_dumpall.setEnabled(false);
-            RitualFragmentActivity.this.tv_title.setText("BRAND");
+            RitualFragmentActivity.this.tv_title.setText(R.string.ritual_title_brand);
             RitualFragmentActivity.this.lm_json_brand.clear();
             if (FileUtil.isExistFile(RitualFragmentActivity.this.s_add_prop)) {
                 RitualFragmentActivity ritualFragmentActivity = RitualFragmentActivity.this;
@@ -1006,8 +1006,7 @@ public class RitualFragmentActivity extends Fragment {
                 return null;
             }
             try {
-                InputStream inputStreamOpen = RitualFragmentActivity.this.getContext().getAssets().open("prop.json");
-                RitualFragmentActivity.this.lm_json_asset = (ArrayList) new Gson().fromJson(SketchwareUtil.copyFromInputStream(inputStreamOpen), new TypeToken<ArrayList<HashMap<String, Object>>>() {                 }.getType());
+                RitualFragmentActivity.this.lm_json_asset = RitualAssetRepository.loadPropData(RitualFragmentActivity.this.getContext());
                 RitualFragmentActivity.this.lm_json_brand.addAll(RitualFragmentActivity.this.lm_json_asset);
                 return null;
             } catch (Exception e) {
@@ -1040,7 +1039,7 @@ public class RitualFragmentActivity extends Fragment {
         this.lm_json_model = (ArrayList) new Gson().fromJson(this.s_click_brand, new TypeToken<ArrayList<HashMap<String, Object>>>() {         }.getType());
         this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_model));
         this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-        this.btn_back.setText("BACK TO BRAND");
+        this.btn_back.setText(R.string.ritual_back_to_brand);
         this.tv_title.setText(this.s_rv);
         this.btn_back.setVisibility(0);
     }
@@ -1061,7 +1060,7 @@ public class RitualFragmentActivity extends Fragment {
     public void _onAdvanceBindModel(View view, TextView textView, TextView textView2, final double d, final ArrayList<HashMap<String, Object>> arrayList) {
         int i = (int) d;
         textView.setText(arrayList.get(i).get("DEVICENAME").toString());
-        textView2.setText("OS : ".concat(arrayList.get(i).get("RELEASE").toString()));
+        textView2.setText(getString(R.string.ritual_os_format, arrayList.get(i).get("RELEASE").toString()));
         view.setOnClickListener(new View.OnClickListener() {             @Override // android.view.View.OnClickListener
             public void onClick(View view2) {
                 RitualFragmentActivity.this.s_rv2 = ((HashMap) arrayList.get((int) d)).get("DEVICENAME").toString();
@@ -1083,12 +1082,12 @@ public class RitualFragmentActivity extends Fragment {
         } else if (this.btn_back.getText().toString().equals("BACK TO BRAND")) {
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_brand));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-            this.tv_title.setText("BRAND");
+            this.tv_title.setText(R.string.ritual_title_brand);
             this.btn_back.setVisibility(8);
         } else if (this.btn_back.getText().toString().equals("BACK TO MODEL")) {
             this.rv_1.setAdapter(new Rv_1Adapter(this.lm_json_model));
             this.rv_1.setLayoutManager(new LinearLayoutManager(getContext()));
-            this.btn_back.setText("BACK TO BRAND");
+            this.btn_back.setText(R.string.ritual_back_to_brand);
             this.tv_title.setText(this.s_rv);
             this.rv_1.setVisibility(0);
             this.btn_back.setVisibility(0);
@@ -1109,7 +1108,7 @@ public class RitualFragmentActivity extends Fragment {
     }
 
     public void _onModelLoadProp() {
-        this.btn_back.setText("BACK TO MODEL");
+        this.btn_back.setText(R.string.ritual_back_to_model);
         this.tv_title.setText(this.s_rv2);
         this.rv_1.setVisibility(8);
         this.rv_2.setVisibility(0);
@@ -1711,7 +1710,7 @@ public class RitualFragmentActivity extends Fragment {
         MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(requireContext());
         materialAlertDialogBuilder.setView(viewInflate);
         materialAlertDialogBuilder.setCancelable(false);
-        ((TextView) viewInflate.findViewById(C0978R.id.tv_uni_dialog)).setText("Mohon menunggu...");
+        ((TextView) viewInflate.findViewById(C0978R.id.tv_uni_dialog)).setText(R.string.ritual_waiting);
         AlertDialog alertDialogCreate = materialAlertDialogBuilder.create();
         this.LOADING = alertDialogCreate;
         alertDialogCreate.show();
@@ -1935,7 +1934,7 @@ public class RitualFragmentActivity extends Fragment {
             _onModelLoadProp();
             return;
         }
-        this.til_input_fp.setError("Fingerprint tidak sesuai format");
+        this.til_input_fp.setError(getString(R.string.ritual_invalid_fingerprint));
     }
 
     public void _setPropType(String str) {
@@ -2210,7 +2209,7 @@ public class RitualFragmentActivity extends Fragment {
             this.get_branch_all.startRequestNetwork("GET", this.s_dump_head.concat(this.s_input_model), "a", this._get_branch_all_request_listener);
             return;
         }
-        SketchwareUtil.showMessage(getContext().getApplicationContext(), "Input tidak valid");
+        SketchwareUtil.showMessage(getContext().getApplicationContext(), getString(R.string.ritual_invalid_input));
     }
 
     public void _onConvertOnline() {

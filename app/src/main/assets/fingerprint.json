@@ -1,0 +1,2936 @@
+[
+  {
+    "Brand": "iqoo",
+    "Device": "DPD2329",
+    "Version": "16",
+    "Fingerprint": "iqoo/DPD2329/DPD2329:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "DPD2345",
+    "Version": "16",
+    "Fingerprint": "iqoo/DPD2345/DPD2345:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2218",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2218/I2218:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2219",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2219/I2219:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2302",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2302/I2302:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2304",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2304/I2304:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2305",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2305/I2305:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2401",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2401/I2401:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2403",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2403/I2403:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2404",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2404/I2404:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2407",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2407/I2407:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "I2410",
+    "Version": "16",
+    "Fingerprint": "iqoo/I2410/I2410:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2314",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2314/PD2314:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2339",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2339/PD2339:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2352",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2352/PD2352:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2361",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2361/PD2361:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2403",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2403/PD2403:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2408",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2408/PD2408:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2417",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2417/PD2417:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2425",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2425/PD2425:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2426",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2426/PD2426:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2445",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2445/PD2445:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2452",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2452/PD2452:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "iqoo",
+    "Device": "PD2453",
+    "Version": "16",
+    "Fingerprint": "iqoo/PD2453/PD2453:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "air",
+    "Version": "15",
+    "Fingerprint": "poco/air_global/air:15/AP3A.240905.015.A2/OS2.0.5.0.VGQEUXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "alioth",
+    "Version": "13",
+    "Fingerprint": "poco/alioth_global/alioth:13/TP1A.220624.014/OS1.0.6.0.TKHCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "ares",
+    "Version": "13",
+    "Fingerprint": "poco/ares_global/ares:13/TP1A.220624.014/OS1.0.2.0.TKJINXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "beryl",
+    "Version": "15",
+    "Fingerprint": "poco/beryl_global/beryl:15/AP3A.240905.015.A2/OS2.0.9.0.VOQCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "breeze",
+    "Version": "15",
+    "Fingerprint": "poco/breeze_global/breeze:15/AP3A.240905.015.A2/OS2.0.7.0.VNUINXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "creek",
+    "Version": "15",
+    "Fingerprint": "poco/creek_global/creek:15/AP3A.240905.015.A2/OS2.0.210.0.VBOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "dew",
+    "Version": "15",
+    "Fingerprint": "poco/dew_global/dew:15/AP3A.240905.015.A2/OS2.0.213.VBNMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "dizi",
+    "Version": "15",
+    "Fingerprint": "poco/dizi_global/dizi:15/AP3A.240905.015.A2/OS2.0.7.0.VNSEUXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "duchamp",
+    "Version": "15",
+    "Fingerprint": "poco/duchamp_global/duchamp:15/AP3A.240905.015.A2/OS2.0.3.0.VNLINXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "earth",
+    "Version": "14",
+    "Fingerprint": "poco/earth_global/earth:14/UP1A.231005.007/OS1.0.9.0.UCVMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "emerald",
+    "Version": "14",
+    "Fingerprint": "poco/emerald_global/emerald:14/UP1A.231005.007/OS1.0.8.0.UFOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "emeraldr",
+    "Version": "15",
+    "Fingerprint": "poco/emeraldr_global/emeraldr:15/AP3A.240905.015.A2/OS2.0.7.0.VNFMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "evergreen",
+    "Version": "13",
+    "Fingerprint": "poco/evergreen_global/evergreen:13/TP1A.220624.014/OS1.0.2.0.TGBEUXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "flame",
+    "Version": "15",
+    "Fingerprint": "poco/flame_global/flame:15/AP3A.240905.015.A2/OS2.0.5.0.VGUCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "fleur",
+    "Version": "13",
+    "Fingerprint": "poco/fleur_global/fleur:13/TP1A.220624.014/OS1.0.9.0.TKEMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "flourite",
+    "Version": "15",
+    "Fingerprint": "poco/flourite/flourite:15/AP3A.240905.015.A2/OS2.0.209.0.VPRCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "flute",
+    "Version": "15",
+    "Fingerprint": "poco/flute_global/flute:15/AP3A.240905.015.A2/OS2.0.209.0.VPWEUXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "gale",
+    "Version": "15",
+    "Fingerprint": "poco/gale_global/gale:15/AP3A.240905.015.A2/OS2.0.8.0.VGPEUXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "garnet",
+    "Version": "15",
+    "Fingerprint": "poco/garnet_global/garnet:15/AP3A.240905.015.A2/OS2.0.9.0.VNRMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "gold",
+    "Version": "15",
+    "Fingerprint": "poco/gold_global/gold:15/AP3A.240905.015.A2/OS2.0.9.0.VNQEUXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "ingres",
+    "Version": "14",
+    "Fingerprint": "poco/ingres_global/ingres:14/UP1A.231005.007/OS2.0.5.0.ULJCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "lake",
+    "Version": "15",
+    "Fingerprint": "poco/lake_global/lake:15/AP3A.240905.015.A2/OS2.0.4.0.VGTMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "light",
+    "Version": "14",
+    "Fingerprint": "poco/light_global/light:14/UP1A.231005.007/OS1.0.9.0.ULSCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "malachite",
+    "Version": "15",
+    "Fingerprint": "poco/malachite_global/malachite:15/AP3A.240905.015.A2/OS2.0.7.0.VOOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "marble",
+    "Version": "15",
+    "Fingerprint": "poco/marble_global/marble:15/AP3A.240905.015.A2/OS2.0.7.0.VMRCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "miro",
+    "Version": "15",
+    "Fingerprint": "poco/miro_global/miro:15/AP3A.240905.015.A2/OS2.0.9.0.VOMCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "mondrian",
+    "Version": "15",
+    "Fingerprint": "poco/mondrian_global/mondrian:15/AP3A.240905.015.A2/OS2.0.9.0.VMNCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "moon",
+    "Version": "15",
+    "Fingerprint": "poco/moon_global/moon:15/AP3A.240905.015.A2/OS2.0.6.0.VNTMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "moonstone",
+    "Version": "14",
+    "Fingerprint": "poco/moonstone_global/moonstone:14/UP1A.231005.007/OS1.0.9.0.UMPMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "munch",
+    "Version": "14",
+    "Fingerprint": "poco/munch_global/munch:14/UP1A.231005.007/OS1.0.9.0.ULMMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "onyx",
+    "Version": "15",
+    "Fingerprint": "poco/onyx_global/onyx:15/AP3A.240905.015.A2/OS2.0.216.VOLCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "peridot",
+    "Version": "15",
+    "Fingerprint": "poco/peridot_global/peridot:15/AP3A.240905.015.A2/OS2.0.6.0.VNPCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "redwood",
+    "Version": "14",
+    "Fingerprint": "poco/redwood_global/redwood:14/UP1A.231005.007/OS2.0.9.0.UMSMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "rock",
+    "Version": "14",
+    "Fingerprint": "poco/rock_global/rock:14/UP1A.231005.007/OS1.0.9.0.ULUMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "rodin",
+    "Version": "15",
+    "Fingerprint": "poco/rodin_global/rodin:15/AP3A.240905.015.A2/OS2.0.9.0.VOJMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "ruan",
+    "Version": "15",
+    "Fingerprint": "poco/ruan_global/ruan:15/AP3A.240905.015.A2/OS2.0.6.0.VFSCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "sky",
+    "Version": "15",
+    "Fingerprint": "poco/sky_global/sky:15/AP3A.240905.015.A2/OS2.0.9.0.VMWMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "spring",
+    "Version": "15",
+    "Fingerprint": "poco/spring_global/spring:15/AP3A.240905.015.A2/OS2.0.206.0.VOUINXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "tornado",
+    "Version": "15",
+    "Fingerprint": "poco/tornado_global/tornado:15/AP3A.240905.015.A2/OS2.0.203.0.VPOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "uke",
+    "Version": "15",
+    "Fingerprint": "poco/uke_global/uke:15/AP3A.240905.015.A2/OS2.0.9.0.VOZINXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "vermeer",
+    "Version": "15",
+    "Fingerprint": "poco/vermeer_global/vermeer:15/AP3A.240905.015.A2/OS2.0.9.0.VNKCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "veux",
+    "Version": "13",
+    "Fingerprint": "poco/veux_global/veux:13/TP1A.220624.014/OS1.0.9.0.TKCMIXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "warm",
+    "Version": "15",
+    "Fingerprint": "poco/warm_global/warm:15/AP3A.240905.015.A2/OS2.0.4.0.VGVINXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "xaga",
+    "Version": "14",
+    "Fingerprint": "poco/xaga_global/xaga:14/UP1A.231005.007/OS2.0.7.0.ULOCNXM:user/release-keys"
+  },
+  {
+    "Brand": "poco",
+    "Device": "zorn",
+    "Version": "15",
+    "Fingerprint": "poco/zorn_global/zorn:15/AP3A.240905.015.A2/OS2.0.9.0.VOKCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "air",
+    "Version": "15",
+    "Fingerprint": "redmi/air_global/air:15/AP3A.240905.015.A2/OS2.0.5.0.VGQEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "alioth",
+    "Version": "13",
+    "Fingerprint": "redmi/alioth_global/alioth:13/TP1A.220624.014/OS1.0.6.0.TKHCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "amethyst",
+    "Version": "15",
+    "Fingerprint": "redmi/amethyst_global/amethyst:15/AP3A.240905.015.A2/OS2.0.8.0.VOPCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "ares",
+    "Version": "13",
+    "Fingerprint": "redmi/ares_global/ares:13/TP1A.220624.014/OS1.0.2.0.TKJINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "beryl",
+    "Version": "15",
+    "Fingerprint": "redmi/beryl_global/beryl:15/AP3A.240905.015.A2/OS2.0.9.0.VOQCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "breeze",
+    "Version": "15",
+    "Fingerprint": "redmi/breeze_global/breeze:15/AP3A.240905.015.A2/OS2.0.7.0.VNUINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "corot",
+    "Version": "15",
+    "Fingerprint": "redmi/corot_global/corot:15/AP3A.240905.015.A2/OS2.0.9.0.VMLEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "creek",
+    "Version": "15",
+    "Fingerprint": "redmi/creek_global/creek:15/AP3A.240905.015.A2/OS2.0.210.0.VBOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "dali",
+    "Version": "15",
+    "Fingerprint": "redmi/dali/dali:15/AP3A.240905.015.A2/OS2.0.220.0.VONCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "dew",
+    "Version": "15",
+    "Fingerprint": "redmi/dew_global/dew:15/AP3A.240905.015.A2/OS2.0.213.VBNMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "dizi",
+    "Version": "15",
+    "Fingerprint": "redmi/dizi_global/dizi:15/AP3A.240905.015.A2/OS2.0.7.0.VNSEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "duchamp",
+    "Version": "15",
+    "Fingerprint": "redmi/duchamp_global/duchamp:15/AP3A.240905.015.A2/OS2.0.3.0.VNLINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "earth",
+    "Version": "14",
+    "Fingerprint": "redmi/earth_global/earth:14/UP1A.231005.007/OS1.0.9.0.UCVMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "emerald",
+    "Version": "15",
+    "Fingerprint": "redmi/emerald_global/emerald:15/AP3A.240905.015.A2/OS2.0.7.0.VNFMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "evergo",
+    "Version": "13",
+    "Fingerprint": "redmi/evergo_global/evergo:13/TP1A.220624.014/OS1.0.1.0.TGBINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "fire",
+    "Version": "15",
+    "Fingerprint": "redmi/fire_global/fire:15/AP3A.240905.015.A2/OS2.0.6.0.VMXEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "flame",
+    "Version": "15",
+    "Fingerprint": "redmi/flame_global/flame:15/AP3A.240905.015.A2/OS2.0.5.0.VGUCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "flare",
+    "Version": "15",
+    "Fingerprint": "redmi/flare_global/flare:15/AP3A.240905.015.A2/OS2.0.5.0.VHXMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "fleur",
+    "Version": "13",
+    "Fingerprint": "redmi/fleur_global/fleur:13/TP1A.220624.014/OS1.0.9.0.TKEMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "flourite",
+    "Version": "15",
+    "Fingerprint": "redmi/flourite/flourite:15/AP3A.240905.015.A2/OS2.0.209.0.VPRCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "flute",
+    "Version": "15",
+    "Fingerprint": "redmi/flute_global/flute:15/AP3A.240905.015.A2/OS2.0.209.0.VPWEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "gale",
+    "Version": "15",
+    "Fingerprint": "redmi/gale_global/gale:15/AP3A.240905.015.A2/OS2.0.8.0.VGPEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "garnet",
+    "Version": "15",
+    "Fingerprint": "redmi/garnet_global/garnet:15/AP3A.240905.015.A2/OS2.0.9.0.VNRMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "gold",
+    "Version": "15",
+    "Fingerprint": "redmi/gold_global/gold:15/AP3A.240905.015.A2/OS2.0.9.0.VNQEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "ingres",
+    "Version": "14",
+    "Fingerprint": "redmi/ingres_global/ingres:14/UP1A.231005.007/OS2.0.5.0.ULJCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "koto",
+    "Version": "15",
+    "Fingerprint": "redmi/koto_global/koto:15/AP3A.240905.015.A2/OS2.0.205.0.VOWINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "kunzite",
+    "Version": "15",
+    "Fingerprint": "redmi/kunzite/kunzite:15/AP3A.240905.015.A2/OS2.0.206.0.VPQCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "lake",
+    "Version": "15",
+    "Fingerprint": "redmi/lake_global/lake:15/AP3A.240905.015.A2/OS2.0.4.0.VGTMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "lapis",
+    "Version": "15",
+    "Fingerprint": "redmi/lapis/lapis:15/AP3A.240905.015.A2/OS2.0.208.0.VPPCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "light",
+    "Version": "14",
+    "Fingerprint": "redmi/light_global/light:14/UP1A.231005.007/OS1.0.9.0.ULSCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "malachite",
+    "Version": "15",
+    "Fingerprint": "redmi/malachite_global/malachite:15/AP3A.240905.015.A2/OS2.0.7.0.VOOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "manet",
+    "Version": "15",
+    "Fingerprint": "redmi/manet/manet:15/AP3A.240905.015.A2/OS2.0.7.0.VNMCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "marble",
+    "Version": "15",
+    "Fingerprint": "redmi/marble_global/marble:15/AP3A.240905.015.A2/OS2.0.7.0.VMRCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "matisse",
+    "Version": "14",
+    "Fingerprint": "redmi/matisse/matisse:14/UP1A.231005.007/OS2.0.2.0.ULKCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "miro",
+    "Version": "15",
+    "Fingerprint": "redmi/miro_global/miro:15/AP3A.240905.015.A2/OS2.0.9.0.VOMCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "mondrian",
+    "Version": "15",
+    "Fingerprint": "redmi/mondrian_global/mondrian:15/AP3A.240905.015.A2/OS2.0.9.0.VMNCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "moon",
+    "Version": "15",
+    "Fingerprint": "redmi/moon_global/moon:15/AP3A.240905.015.A2/OS2.0.6.0.VNTMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "munch",
+    "Version": "14",
+    "Fingerprint": "redmi/munch_global/munch:14/UP1A.231005.007/OS1.0.9.0.ULMMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "obsidian",
+    "Version": "15",
+    "Fingerprint": "redmi/obsidian_global/obsidian:15/AP3A.240905.015.A2/OS2.0.6.0.VOFMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "onyx",
+    "Version": "15",
+    "Fingerprint": "redmi/onyx_global/onyx:15/AP3A.240905.015.A2/OS2.0.216.VOLCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "opal",
+    "Version": "13",
+    "Fingerprint": "redmi/opal_global/opal:13/TP1A.220624.014/OS1.0.4.0.TGLEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "pearl",
+    "Version": "15",
+    "Fingerprint": "redmi/pearl/pearl:15/AP3A.240905.015.A2/OS2.0.8.0.VLHCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "peridot",
+    "Version": "15",
+    "Fingerprint": "redmi/peridot_global/peridot:15/AP3A.240905.015.A2/OS2.0.6.0.VNPCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "pissarro",
+    "Version": "13",
+    "Fingerprint": "redmi/pissarro_global/pissarro:13/TP1A.220624.014/OS1.0.8.0.TKTMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "redwood",
+    "Version": "14",
+    "Fingerprint": "redmi/redwood_global/redwood:14/UP1A.231005.007/OS2.0.9.0.UMSMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "rembrandt",
+    "Version": "14",
+    "Fingerprint": "redmi/rembrandt/rembrandt:14/UP1A.231005.007/OS2.0.7.0.UMMCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "rock",
+    "Version": "14",
+    "Fingerprint": "redmi/rock_global/rock:14/UP1A.231005.007/OS1.0.9.0.ULUMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "rodin",
+    "Version": "15",
+    "Fingerprint": "redmi/rodin_global/rodin:15/AP3A.240905.015.A2/OS2.0.9.0.VOJMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "rothko",
+    "Version": "16",
+    "Fingerprint": "redmi/rothko_global/rothko:16/BP22.250325.007/OS2.0.225.0.WNNEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "ruan",
+    "Version": "15",
+    "Fingerprint": "redmi/ruan_global/ruan:15/AP3A.240905.015.A2/OS2.0.6.0.VFSCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "rubens",
+    "Version": "14",
+    "Fingerprint": "redmi/rubens/rubens:14/UP1A.231005.007/OS2.0.5.0.ULNCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "ruby",
+    "Version": "14",
+    "Fingerprint": "redmi/ruby_global/ruby:14/UP1A.231005.007/OS2.0.8.0.UMOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "sapphire",
+    "Version": "15",
+    "Fingerprint": "redmi/sapphire_global/sapphire:15/AP3A.240905.015.A2/OS2.0.8.0.VNGMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "sapphiren",
+    "Version": "15",
+    "Fingerprint": "redmi/sapphiren_global/sapphiren:15/AP3A.240905.015.A2/OS2.0.9.0.VNHMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "sea",
+    "Version": "15",
+    "Fingerprint": "redmi/sea_global/sea:15/AP3A.240905.015.A2/OS2.0.5.0.VHZMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "sky",
+    "Version": "15",
+    "Fingerprint": "redmi/sky_global/sky:15/AP3A.240905.015.A2/OS2.0.9.0.VMWMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "socrates",
+    "Version": "15",
+    "Fingerprint": "redmi/socrates/socrates:15/AP3A.240905.015.A2/OS2.0.3.0.VMKCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "spark",
+    "Version": "15",
+    "Fingerprint": "redmi/spark_global/spark:15/AP3A.240905.015.A2/OS2.0.4.0.VHYMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "spes",
+    "Version": "13",
+    "Fingerprint": "redmi/spes_global/spes:13/TP1A.220624.014/OS1.0.8.0.TGCMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "spesn",
+    "Version": "13",
+    "Fingerprint": "redmi/spesn_global/spesn:13/TP1A.220624.014/OS1.0.6.0.TGKEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "spring",
+    "Version": "15",
+    "Fingerprint": "redmi/spring_global/spring:15/AP3A.240905.015.A2/OS2.0.206.0.VOUINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "sunstone",
+    "Version": "14",
+    "Fingerprint": "redmi/sunstone_global/sunstone:14/UP1A.231005.007/OS2.0.6.0.UMQINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "taiko",
+    "Version": "15",
+    "Fingerprint": "redmi/taiko_global/taiko:15/AP3A.240905.015.A2/OS2.0.205.0.VOVMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "tanzanite",
+    "Version": "15",
+    "Fingerprint": "redmi/tanzanite_global/tanzanite:15/AP3A.240905.015.A2/OS2.0.6.0.VOGEUXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "tapas",
+    "Version": "15",
+    "Fingerprint": "redmi/tapas_global/tapas:15/AP3A.240905.015.A2/OS2.0.9.0.VMTMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "topaz",
+    "Version": "15",
+    "Fingerprint": "redmi/topaz_global/topaz:15/AP3A.240905.015.A2/OS2.0.9.0.VMGMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "tornado",
+    "Version": "15",
+    "Fingerprint": "redmi/tornado_global/tornado:15/AP3A.240905.015.A2/OS2.0.203.0.VPOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "turner",
+    "Version": "15",
+    "Fingerprint": "redmi/turner_global/turner:15/AP3A.240905.015.A2/OS2.0.218.0.VAOCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "vermeer",
+    "Version": "15",
+    "Fingerprint": "redmi/vermeer_global/vermeer:15/AP3A.240905.015.A2/OS2.0.9.0.VNKCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "veux",
+    "Version": "13",
+    "Fingerprint": "redmi/veux_global/veux:13/TP1A.220624.014/OS1.0.9.0.TKCMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "vida",
+    "Version": "13",
+    "Fingerprint": "redmi/vida_global/vida:13/TP1A.220624.014/OS1.0.4.0.TGDINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "viva",
+    "Version": "13",
+    "Fingerprint": "redmi/viva_global/viva:13/TP1A.220624.014/OS1.0.4.0.TGDMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "warm",
+    "Version": "15",
+    "Fingerprint": "redmi/warm_global/warm:15/AP3A.240905.015.A2/OS2.0.4.0.VGVINXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "xaga",
+    "Version": "14",
+    "Fingerprint": "redmi/xaga_global/xaga:14/UP1A.231005.007/OS2.0.7.0.ULOCNXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "xun",
+    "Version": "15",
+    "Fingerprint": "redmi/xun_global/xun:15/AP3A.240905.015.A2/OS2.0.5.0.VMUMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "yunluo",
+    "Version": "14",
+    "Fingerprint": "redmi/yunluo_global/yunluo:14/UP1A.231005.007/OS1.0.9.0.ULYMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "zircon",
+    "Version": "15",
+    "Fingerprint": "redmi/zircon_global/zircon:15/AP3A.240905.015.A2/OS2.0.9.0.VNOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "redmi",
+    "Device": "zorn",
+    "Version": "15",
+    "Fingerprint": "redmi/zorn_global/zorn:15/AP3A.240905.015.A2/OS2.0.9.0.VOKCNXM:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a01core",
+    "Version": "10",
+    "Fingerprint": "samsung/a01corextc/a01core:10/QP1A.190711.020/A013GXXU5AWA2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a01q",
+    "Version": "12",
+    "Fingerprint": "samsung/a01qxx/a01q:12/SP1A.210812.016/A015FXXU5CVK5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a02",
+    "Version": "11",
+    "Fingerprint": "samsung/a02xx/a02:11/RP1A.200720.012/M022FXXU3BWB5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a02q",
+    "Version": "12",
+    "Fingerprint": "samsung/a02qnnxx/a02q:12/SP1A.210812.016/A025FXXU6CWE2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a03",
+    "Version": "13",
+    "Fingerprint": "samsung/a03nnxx/a03:13/TP1A.220624.014/A035FXXU4CWI1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a03s",
+    "Version": "13",
+    "Fingerprint": "samsung/a03snnxx/a03s:13/TP1A.220624.014/A037FXXU4CWI1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a04",
+    "Version": "14",
+    "Fingerprint": "samsung/a04xx/a04:14/UP1A.231005.007/A045FXXU7EXH2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a04e",
+    "Version": "14",
+    "Fingerprint": "samsung/a04exx/a04e:14/UP1A.231005.007/A042FXXU7EXE3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a04s",
+    "Version": "14",
+    "Fingerprint": "samsung/a04snseea/a04s:14/UP1A.231005.007/A047FXXUAEXL1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a05m",
+    "Version": "15",
+    "Fingerprint": "samsung/a05mxx/a05m:15/AP3A.240905.015.A2/A055FXXSBDYJ2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a05s",
+    "Version": "15",
+    "Fingerprint": "samsung/a05snndxx/a05s:15/AP3A.240905.015.A2/A057FXXU9DYE5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a06",
+    "Version": "16",
+    "Fingerprint": "samsung/a06xx/a06:16/BP22.250325.007/A066BXXU3BYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a07",
+    "Version": "16",
+    "Fingerprint": "samsung/a07xx/a07:16/BP22.250325.007/A075FXXU1BYJA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a10",
+    "Version": "11",
+    "Fingerprint": "samsung/a10dx/a10:11/RP1A.200720.012/A105GDXU8CVG3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a10s",
+    "Version": "11",
+    "Fingerprint": "samsung/a10snnxx/a10s:11/RP1A.200720.012/A107FXXU8CVG2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a11q",
+    "Version": "12",
+    "Fingerprint": "samsung/a11qnxx/a11q:12/SP1A.210812.016/A115FXXU5CWF1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a12",
+    "Version": "12",
+    "Fingerprint": "samsung/a12nnxx/a12:12/SP1A.210812.016/A125FXXU2CWB1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a12s",
+    "Version": "13",
+    "Fingerprint": "samsung/a12snnxx/a12s:13/TP1A.220624.014/A127FXXUADWI2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a13",
+    "Version": "14",
+    "Fingerprint": "samsung/a13nnxx/a13:14/UP1A.231005.007/A135FXXUAEXL2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a13x",
+    "Version": "12",
+    "Fingerprint": "samsung/a13xsq/a13x:12/SP1A.210812.016/A136BXXU1AVE3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a14",
+    "Version": "15",
+    "Fingerprint": "samsung/a14nsxx/a14:15/AP3A.240905.015.A2/A145FXXU9DYG5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a14xm",
+    "Version": "15",
+    "Fingerprint": "samsung/a14xmeea/a14xm:15/AP3A.240905.015.A2/A146PXXUEEYJ5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a15",
+    "Version": "15",
+    "Fingerprint": "samsung/a15nsxx/a15:15/AP3A.240905.015.A2/A155FXXU6CYE3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a15x",
+    "Version": "16",
+    "Fingerprint": "samsung/a15xnsdxx/a15x:16/BP22.250325.007/A156EDXU6DYIA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a16",
+    "Version": "15",
+    "Fingerprint": "samsung/a16nsxx/a16:15/AP3A.240905.015.A2/A165FXXU3BYE6:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a16xm",
+    "Version": "16",
+    "Fingerprint": "samsung/a16xmnsxx/a16xm:16/BP22.250325.007/A166PXXU5CYI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a17",
+    "Version": "15",
+    "Fingerprint": "samsung/a17xx/a17:15/AP3A.240905.015.A2/A175FXXU1AYH4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a17x",
+    "Version": "16",
+    "Fingerprint": "samsung/a17xx/a17x:16/BP22.250325.007/A176BXXU2BYID:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a20",
+    "Version": "11",
+    "Fingerprint": "samsung/a20dd/a20:11/RP1A.200720.012/A205FXXUACUI2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a20s",
+    "Version": "11",
+    "Fingerprint": "samsung/a20sxx/a20s:11/RP1A.200720.012/A207FXXU3CVH4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a21s",
+    "Version": "12",
+    "Fingerprint": "samsung/a21snnxx/a21s:12/SP1A.210812.016/A217FXXU8DVK1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a22",
+    "Version": "13",
+    "Fingerprint": "samsung/a22nstur/a22:13/TP1A.220624.014/A225FXXU7DWH3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a22x",
+    "Version": "13",
+    "Fingerprint": "samsung/a22xnnxx/a22x:13/TP1A.220624.014/A226BXXU7DWH4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a23",
+    "Version": "14",
+    "Fingerprint": "samsung/a23nnxx/a23:14/UP1A.231005.007/A235FXXU9EXL2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a23xq",
+    "Version": "14",
+    "Fingerprint": "samsung/a23xqnndxx/a23xq:14/UP1A.231005.007/A236EXXU9EXK1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a24",
+    "Version": "15",
+    "Fingerprint": "samsung/a24nsxx/a24:15/AP3A.240905.015.A2/A245FXXU8DYE5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a25x",
+    "Version": "16",
+    "Fingerprint": "samsung/a25xdxx/a25x:16/BP22.250325.007/A256EXXU8DYI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a26x",
+    "Version": "16",
+    "Fingerprint": "samsung/a26xxx/a26x:16/BP22.250325.007/A266BXXU4BYI2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a30",
+    "Version": "11",
+    "Fingerprint": "samsung/a30dd/a30:11/RP1A.200720.012/A305FDDU6CVG2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a30s",
+    "Version": "11",
+    "Fingerprint": "samsung/a30sdx/a30s:11/RP1A.200720.012/A307GNDXU5CVL1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a31",
+    "Version": "12",
+    "Fingerprint": "samsung/a31nsdx/a31:12/SP1A.210812.016/A315GDXU2DWB3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a32",
+    "Version": "13",
+    "Fingerprint": "samsung/a32nnxx/a32:13/TP1A.220624.014/A325FXXU6DWH3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a32x",
+    "Version": "13",
+    "Fingerprint": "samsung/a32xxx/a32x:13/TP1A.220624.014/A326BXXU9CWL1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a33x",
+    "Version": "16",
+    "Fingerprint": "samsung/a33xnndxx/a33x:16/BP22.250325.007/A346EXXUAEYI7:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a35x",
+    "Version": "16",
+    "Fingerprint": "samsung/a35xjvxx/a35x:16/BP22.250325.007/A356EXXU5CYI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a36xq",
+    "Version": "16",
+    "Fingerprint": "samsung/a36xqnaxx/a36xq:16/BP22.250325.007/A366BXXU4BYI7:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a3core",
+    "Version": "13",
+    "Fingerprint": "samsung/a3corexx/a3core:13/TP1A.220624.014/A032FXXU4CWI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a50",
+    "Version": "11",
+    "Fingerprint": "samsung/a50dd/a50:11/RP1A.200720.012/A505FDDU9CVG2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a50s",
+    "Version": "11",
+    "Fingerprint": "samsung/a50sxx/a50s:11/RP1A.200720.012/A507FNXXU6DVG4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a51",
+    "Version": "13",
+    "Fingerprint": "samsung/a51nseea/a51:13/TP1A.220624.014/A515FXXU8HWI1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a52q",
+    "Version": "14",
+    "Fingerprint": "samsung/a52qseea/a52q:14/UP1A.231005.007/A525FXXUAFXL2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a52szq",
+    "Version": "14",
+    "Fingerprint": "samsung/a52sxqeea/a52szq:14/UP1A.231005.007/A528BXXUAGXK8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a52xq",
+    "Version": "11",
+    "Fingerprint": "samsung/a52xqnaxx/a52xq:11/RP1A.200720.012/A526BXXU1AUH5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a53x",
+    "Version": "16",
+    "Fingerprint": "samsung/a53xnsxx/a53x:16/BP22.250325.007/A536EXXUHGYI9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a54x",
+    "Version": "16",
+    "Fingerprint": "samsung/a54xnsxx/a54x:16/BP22.250325.007/A546EXXUFEYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a55x",
+    "Version": "16",
+    "Fingerprint": "samsung/a55xnsxx/a55x:16/BP22.250325.007/A556EXXUACYIA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a56x",
+    "Version": "16",
+    "Fingerprint": "samsung/a56xnaeea/a56x:16/BP22.250325.007/A566BXXU6BYI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a6lte",
+    "Version": "10",
+    "Fingerprint": "samsung/a6ltedx/a6lte:10/QP1A.190711.020/A600GDXUACVB2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a6plte",
+    "Version": "10",
+    "Fingerprint": "samsung/a6pltejx/a6plte:10/QP1A.190711.020/A605GDXU9CVB1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a70q",
+    "Version": "11",
+    "Fingerprint": "samsung/a70qxx/a70q:11/RP1A.200720.012/A705FXXU5DXD2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a71",
+    "Version": "13",
+    "Fingerprint": "samsung/a71naeea/a71:13/TP1A.220624.014/A715FXXUADWH4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a72q",
+    "Version": "14",
+    "Fingerprint": "samsung/a72qnsxx/a72q:14/UP1A.231005.007/A725FXXUAFXL2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a73xq",
+    "Version": "16",
+    "Fingerprint": "samsung/a73xqxx/a73xq:16/BP22.250325.007/A736BXXUAGYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a7y18lte",
+    "Version": "10",
+    "Fingerprint": "samsung/a7y18ltexx/a7y18lte:10/QP1A.190711.020/A750GNDXU6CVG1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "a9y18qlte",
+    "Version": "10",
+    "Fingerprint": "samsung/a9y18qltexx/a9y18qlte:10/QP1A.190711.020/A920FXXU3CTF7:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "b0q",
+    "Version": "16",
+    "Fingerprint": "samsung/b0qxxx/b0q:16/BP22.250325.007/S908EXXUCGYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "b2q",
+    "Version": "15",
+    "Fingerprint": "samsung/b2qxeea/b2q:15/AP3A.240905.015.A2/F711BXXUCJYD9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "b4q",
+    "Version": "16",
+    "Fingerprint": "samsung/b4qxxx/b4q:16/BP22.250325.007/F721BXXUAIYIF:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "b5q",
+    "Version": "16",
+    "Fingerprint": "samsung/b5qxxx/b5q:16/BP22.250325.007/F731BXXU5FYI9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "b6q",
+    "Version": "16",
+    "Fingerprint": "samsung/b6qxtur/b6q:16/BP22.250325.007/F741BXXU2CYI6:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "b7s",
+    "Version": "16",
+    "Fingerprint": "samsung/b7szcx/b7s:16/BP22.250325.007/F766BXXU4AYI1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "beyond0",
+    "Version": "12",
+    "Fingerprint": "samsung/beyond0ltexx/beyond0:12/SP1A.210812.016/G970FXXUGHVJ5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "beyond1",
+    "Version": "12",
+    "Fingerprint": "samsung/beyond1ltexx/beyond1:12/SP1A.210812.016/G973FXXUGHVJ5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "beyond2",
+    "Version": "12",
+    "Fingerprint": "samsung/beyond2ltexx/beyond2:12/SP1A.210812.016/G975FXXUGHVJ5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "bloomq",
+    "Version": "13",
+    "Fingerprint": "samsung/b1qxxx/bloomq:13/TP1A.220624.014/F700FXXUDKWI6:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "c1s",
+    "Version": "13",
+    "Fingerprint": "samsung/c1sxx/c1s:13/TP1A.220624.014/N980FXXU8HWH9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "c2s",
+    "Version": "13",
+    "Fingerprint": "samsung/c2sxxx/c2s:13/TP1A.220624.014/N986BXXU8HWH9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "crownlte",
+    "Version": "10",
+    "Fingerprint": "samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FVG2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "d1",
+    "Version": "12",
+    "Fingerprint": "samsung/d1eea/d1:12/SP1A.210812.016/N970FXXU8HVGA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "d2s",
+    "Version": "12",
+    "Fingerprint": "samsung/d2sxx/d2s:12/SP1A.210812.016/N975FXXU8HVGA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "dm1q",
+    "Version": "16",
+    "Fingerprint": "samsung/dm1qxxx/dm1q:16/BP22.250325.007/S911BXXU8EYI5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "dm2q",
+    "Version": "16",
+    "Fingerprint": "samsung/dm2qxxx/dm2q:16/BP22.250325.007/S916BXXU8EYI5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "dm3q",
+    "Version": "16",
+    "Fingerprint": "samsung/dm3qxtur/dm3q:16/BP22.250325.007/S918BXXU8EYI5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "e1s",
+    "Version": "16",
+    "Fingerprint": "samsung/e1sxeea/e1s:16/BP22.250325.007/S921BXXU9CYI5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "e2s",
+    "Version": "16",
+    "Fingerprint": "samsung/e2sxxx/e2s:16/BP22.250325.007/S926BXXU9CYI5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "e3q",
+    "Version": "16",
+    "Fingerprint": "samsung/e3qxxx/e3q:16/BP22.250325.007/S928BXXU4CYI7:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "f2q",
+    "Version": "13",
+    "Fingerprint": "samsung/q1qxxx/f2q:13/TP1A.220624.014/F916BXXU3JWE7:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "g0q",
+    "Version": "16",
+    "Fingerprint": "samsung/g0qxxx/g0q:16/BP22.250325.007/S906EXXUCGYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta4l",
+    "Version": "12",
+    "Fingerprint": "samsung/gta4ljt/gta4l:12/SP1A.210812.016/T505XXU4CWD2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta4xl",
+    "Version": "13",
+    "Fingerprint": "samsung/gta4xleea/gta4xl:13/TP1A.220624.014/P615XXU7FWJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta4xlswifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gta4xlswifi/gta4xlswifi:16/BP22.250325.007/P620XXU7CYJ5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta4xlve",
+    "Version": "14",
+    "Fingerprint": "samsung/gta4xlve/gta4xlve:14/UP1A.231005.007/P619XXU9CXL1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta7lite",
+    "Version": "14",
+    "Fingerprint": "samsung/gta7litexx/gta7lite:14/UP1A.231005.007/T225XXU8EXH2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta7litewifi",
+    "Version": "14",
+    "Fingerprint": "samsung/gta7litewifixx/gta7litewifi:14/UP1A.231005.007/T220XXU8EXH2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta8",
+    "Version": "14",
+    "Fingerprint": "samsung/gta8xx/gta8:14/UP1A.231005.007/X205XXU5DXKA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta8wifi",
+    "Version": "14",
+    "Fingerprint": "samsung/gta8wifixx/gta8wifi:14/UP1A.231005.007/X200XXU4DXH1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta9",
+    "Version": "15",
+    "Fingerprint": "samsung/gta9xx/gta9:15/AP3A.240905.015.A2/X115XXU4CYE5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta9p",
+    "Version": "15",
+    "Fingerprint": "samsung/gta9pxxx/gta9p:15/AP3A.240905.015.A2/X216BXXU6DYD9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta9pwifi",
+    "Version": "15",
+    "Fingerprint": "samsung/gta9pwifixx/gta9pwifi:15/AP3A.240905.015.A2/X210XXU6DYD9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gta9wifi",
+    "Version": "15",
+    "Fingerprint": "samsung/gta9wifixx/gta9wifi:15/AP3A.240905.015.A2/X110XXU4CYE5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gtact5pro",
+    "Version": "16",
+    "Fingerprint": "samsung/gtact5proxx/gtact5pro:16/BP22.250325.007/X356BXXU3BYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gtactive3",
+    "Version": "13",
+    "Fingerprint": "samsung/gtactive3calltur/gtactive3:13/TP1A.220624.014/T575XXU6EWH4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gtactive5",
+    "Version": "16",
+    "Fingerprint": "samsung/gtactive5xx/gtactive5:16/BP22.250325.007/X306BXXU7CYJ3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gto",
+    "Version": "11",
+    "Fingerprint": "samsung/gtoxx/gto:11/RP1A.200720.012/T295XXU4CVG3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10fe",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10fexx/gts10fe:16/BP22.250325.007/X526BXXU4BYJ2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10fep",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10fepxx/gts10fep:16/BP22.250325.007/X626BXXU4BYJ2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10fepwifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10fepwifi/gts10fepwifi:16/BP22.250325.007/X620XXU4BYJ2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10fewifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10fewifixx/gts10fewifi:16/BP22.250325.007/X520XXU4BYI7:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10lite",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10litexx/gts10lite:16/BP22.250325.007/X406BXXU1BYJ3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10p",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10pxeea/gts10p:16/BP22.250325.007/X826BXXU4CYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10pwifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10pwifixx/gts10pwifi:16/BP22.250325.007/X820XXU4CYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10u",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10uxeea/gts10u:16/BP22.250325.007/X936BXXU2AYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts10uwifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts10uwifixx/gts10uwifi:16/BP22.250325.007/X920XXU4CYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts11",
+    "Version": "16",
+    "Fingerprint": "samsung/gts11eea/gts11:16/BP22.250325.007/X736BXXU2AYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts6l",
+    "Version": "12",
+    "Fingerprint": "samsung/gts6lxx/gts6l:12/SP1A.210812.016/T865XXU6DXE1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts8",
+    "Version": "16",
+    "Fingerprint": "samsung/gts8xxx/gts8:16/BP22.250325.007/X706BXXU9EYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts8p",
+    "Version": "16",
+    "Fingerprint": "samsung/gts8pxeea/gts8p:16/BP22.250325.007/X806BXXU9EYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts8u",
+    "Version": "16",
+    "Fingerprint": "samsung/gts8uxx/gts8u:16/BP22.250325.007/X906BXXU9EYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts8wifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9wifixx/gts8wifi:16/BP22.250325.007/X700XXU9EYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9kxx/gts9:16/BP22.250325.007/X716BXXU5DYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9fe",
+    "Version": "15",
+    "Fingerprint": "samsung/gts9fexx/gts9fe:15/AP3A.240905.015.A2/X516BXXU7CYE1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9fep",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9fepxx/gts9fep:16/BP22.250325.007/X616BXXU8DYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9fepwifi",
+    "Version": "15",
+    "Fingerprint": "samsung/gts9fepwifixx/gts9fepwifi:15/AP3A.240905.015.A2/X610XXU7CYE1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9fewifi",
+    "Version": "15",
+    "Fingerprint": "samsung/gts9fewifitur/gts9fewifi:15/AP3A.240905.015.A2/X510XXU7CYE1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9p",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9pzc/gts9p:16/BP22.250325.007/X816BXXU5DYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9pwifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9pwifizc/gts9pwifi:16/BP22.250325.007/X810XXU5DYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9u",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9uxx/gts9u:16/BP22.250325.007/X916BXXU5DYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9uwifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9uwifixx/gts9uwifi:16/BP22.250325.007/X910XXU5DYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "gts9wifi",
+    "Version": "16",
+    "Fingerprint": "samsung/gts9wifixx/gts9wifi:16/BP22.250325.007/X710XXU5DYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "j4lte",
+    "Version": "10",
+    "Fingerprint": "samsung/j4lteub/j4lte:10/QP1A.190711.020/J400FXXU9CUJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "j6lte",
+    "Version": "10",
+    "Fingerprint": "samsung/j6ltedx/j6lte:10/QP1A.190711.020/J600GDXUACUH1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "j6primelte",
+    "Version": "10",
+    "Fingerprint": "samsung/j6primeltedd/j6primelte:10/QP1A.190711.020/J610FXXU7CUE2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "j7duolte",
+    "Version": "10",
+    "Fingerprint": "samsung/j7duoltedd/j7duolte:10/QP1A.190711.020/J720FDDU7CUF4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "j8y18lte",
+    "Version": "10",
+    "Fingerprint": "samsung/j8y18lteser/j8y18lte:10/QP1A.190711.020/J810YDXU6CUL2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m10lte",
+    "Version": "10",
+    "Fingerprint": "samsung/m10ltexx/m10lte:10/QP1A.190711.020/M105GDXU7CUF2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m11q",
+    "Version": "12",
+    "Fingerprint": "samsung/m11qxx/m11q:12/SP1A.210812.016/M115FXXU5CWE3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m12",
+    "Version": "13",
+    "Fingerprint": "samsung/m12nnxx/m12:13/TP1A.220624.014/M127FXXU6DWI3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m14x",
+    "Version": "15",
+    "Fingerprint": "samsung/m14xnnxx/m14x:15/AP3A.240905.015.A2/M146BXXU8DYF5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m15x",
+    "Version": "16",
+    "Fingerprint": "samsung/m15xnsjeea/m15x:16/BP22.250325.007/M156BXXU7CYJ5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m20lte",
+    "Version": "10",
+    "Fingerprint": "samsung/m20ltedx/m20lte:10/QP1A.190711.020/M205GDXU7CVG2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m21",
+    "Version": "12",
+    "Fingerprint": "samsung/m21nnxx/m21:12/SP1A.210812.016/M215FXXU3CWB1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m22",
+    "Version": "13",
+    "Fingerprint": "samsung/m22jvxx/m22:13/TP1A.220624.014/M225FVXXU8DWH4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m23xq",
+    "Version": "14",
+    "Fingerprint": "samsung/m23xqxx/m23xq:14/UP1A.231005.007/M236BXXU6EXE5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m30lte",
+    "Version": "10",
+    "Fingerprint": "samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305MUBU8CVL1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m30s",
+    "Version": "11",
+    "Fingerprint": "samsung/m30snxx/m30s:11/RP1A.200720.012/M307FXXU4CVJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m31",
+    "Version": "12",
+    "Fingerprint": "samsung/m31nsser/m31:12/SP1A.210812.016/M315FXXU3CWA2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m32",
+    "Version": "13",
+    "Fingerprint": "samsung/m32xx/m32:13/TP1A.220624.014/M325FVXXU8DWJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m33x",
+    "Version": "16",
+    "Fingerprint": "samsung/m33xxx/m33x:16/BP22.250325.007/M336BXXUDGYI6:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m34x",
+    "Version": "16",
+    "Fingerprint": "samsung/m34xxx/m34x:16/BP22.250325.007/M346B1DXS8EYJ2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m51",
+    "Version": "12",
+    "Fingerprint": "samsung/m51nsxx/m51:12/SP1A.210812.016/M515FXXU4DVH2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m52xq",
+    "Version": "13",
+    "Fingerprint": "samsung/m52xqxx/m52xq:13/TP1A.220624.014/M526BRXXU4CXD1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m53x",
+    "Version": "16",
+    "Fingerprint": "samsung/m53xnsxx/m53x:16/BP22.250325.007/M536BXXUBGYJ4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m54x",
+    "Version": "16",
+    "Fingerprint": "samsung/m54xxx/m54x:16/BP22.250325.007/M546BXXS9EYJ6:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "m62",
+    "Version": "13",
+    "Fingerprint": "samsung/m62xx/m62:13/TP1A.220624.014/M625FXXU4CWI1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "o1s",
+    "Version": "15",
+    "Fingerprint": "samsung/o1sxser/o1s:15/AP3A.240905.015.A2/G991BXXUEHYD5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "p3s",
+    "Version": "15",
+    "Fingerprint": "samsung/p3sxxx/p3s:15/AP3A.240905.015.A2/G998BXXUEHYD5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "pa1q",
+    "Version": "16",
+    "Fingerprint": "samsung/pa1qxxx/pa1q:16/BP22.250325.007/S931BXXU5BYI3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "pa2q",
+    "Version": "16",
+    "Fingerprint": "samsung/pa2qxxx/pa2q:16/BP22.250325.007/S936BXXU5BYI3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "pa3q",
+    "Version": "16",
+    "Fingerprint": "samsung/pa3qxxx/pa3q:16/BP22.250325.007/S938BXXU5BYI3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "psq",
+    "Version": "16",
+    "Fingerprint": "samsung/psqxxx/psq:16/BP22.250325.007/S937BXXU2BYI3:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "q2q",
+    "Version": "15",
+    "Fingerprint": "samsung/q2qxxx/q2q:15/AP3A.240905.015.A2/F926BXXUBJYD9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "q4q",
+    "Version": "16",
+    "Fingerprint": "samsung/q4qxxx/q4q:16/BP22.250325.007/F936BXXUAIYIF:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "q5q",
+    "Version": "16",
+    "Fingerprint": "samsung/q5qxeea/q5q:16/BP22.250325.007/F946BXXU5FYI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "q6q",
+    "Version": "16",
+    "Fingerprint": "samsung/q6qxxx/q6q:16/BP22.250325.007/F966BXXU4AYI1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r0q",
+    "Version": "16",
+    "Fingerprint": "samsung/r0qxxx/r0q:16/BP22.250325.007/S901EXXUCGYJ1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r11s",
+    "Version": "16",
+    "Fingerprint": "samsung/r11sxxx/r11s:16/BP22.250325.007/S711BXXUAFYI6:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r12s",
+    "Version": "16",
+    "Fingerprint": "samsung/r12sxxx/r12s:16/BP22.250325.007/S721BXXU7CYI5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r13s",
+    "Version": "16",
+    "Fingerprint": "samsung/r13sxxx/r13s:16/BP22.250325.007/S731BXXU1AYIB:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r1q",
+    "Version": "11",
+    "Fingerprint": "samsung/r1qxx/r1q:11/RP1A.200720.012/A805FXXU7DXE1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r5q",
+    "Version": "13",
+    "Fingerprint": "samsung/r5qnsxx/r5q:13/TP1A.220624.014/G770FXXU8HWK5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r7",
+    "Version": "13",
+    "Fingerprint": "samsung/r7naxx/r7:13/TP1A.220624.014/N770FXXU9HWI2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r8q",
+    "Version": "13",
+    "Fingerprint": "samsung/r8qser/r8q:13/TP1A.220624.014/G780GXXU6EWH5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r8s",
+    "Version": "13",
+    "Fingerprint": "samsung/r8sxx/r8s:13/TP1A.220624.014/G780FXXUDFWH5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "r9s",
+    "Version": "16",
+    "Fingerprint": "samsung/r9sxxx/r9s:16/BP22.250325.007/G990EXXUIHYJ2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "star",
+    "Version": "10",
+    "Fingerprint": "samsung/starltexx/star:10/QP1A.190711.020/G960FXXUHFVG4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "star2",
+    "Version": "10",
+    "Fingerprint": "samsung/star2ltexx/star2:10/QP1A.190711.020/G965FXXUHFVG4:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "t2s",
+    "Version": "15",
+    "Fingerprint": "samsung/t2sxeea/t2s:15/AP3A.240905.015.A2/G996BXXUEHYD5:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "winner",
+    "Version": "12",
+    "Fingerprint": "samsung/winner/winner:12/SP1A.210812.016/F900FXXU7HXE1:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "wisdom",
+    "Version": "11",
+    "Fingerprint": "samsung/wisdomdx/wisdom:11/RP1A.200720.012/P205DXU6CVG2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "x1s",
+    "Version": "13",
+    "Fingerprint": "samsung/x1sxx/x1s:13/TP1A.220624.014/G980FXXUIHWH9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "xcover5",
+    "Version": "14",
+    "Fingerprint": "samsung/xcover5eea/xcover5:14/UP1A.231005.007/G525FXXUEEXL2:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "xcover7",
+    "Version": "16",
+    "Fingerprint": "samsung/xcover7eea/xcover7:16/BP22.250325.007/G556BXXUBDYIA:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "xcover7pro",
+    "Version": "16",
+    "Fingerprint": "samsung/xcover7pro/xcover7pro:16/BP22.250325.007/G766BXXU3BYI8:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "y2s",
+    "Version": "13",
+    "Fingerprint": "samsung/y2sser/y2s:13/TP1A.220624.014/G985FXXUIHWH9:user/release-keys"
+  },
+  {
+    "Brand": "samsung",
+    "Device": "z3s",
+    "Version": "13",
+    "Fingerprint": "samsung/z3sxxx/z3s:13/TP1A.220624.014/G988BXXUIHWH9:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "DPD2329",
+    "Version": "16",
+    "Fingerprint": "vivo/DPD2329/DPD2329:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "DPD2345",
+    "Version": "16",
+    "Fingerprint": "vivo/DPD2345/DPD2345:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "DPD2424",
+    "Version": "16",
+    "Fingerprint": "vivo/DPD2424/DPD2424:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "DPD2429",
+    "Version": "16",
+    "Fingerprint": "vivo/DPD2429/DPD2429:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "DPD2437",
+    "Version": "16",
+    "Fingerprint": "vivo/DPD2437/DPD2437:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "I2219",
+    "Version": "16",
+    "Fingerprint": "vivo/I2219/I2219:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "I2306",
+    "Version": "16",
+    "Fingerprint": "vivo/I2306/I2306:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD1831",
+    "Version": "16",
+    "Fingerprint": "vivo/PD1831/PD1831:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2034",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2034/PD2034:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2282",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2282/PD2282:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2303",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2303/PD2303:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2309",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2309/PD2309:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2318",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2318/PD2318:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2324",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2324/PD2324:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2327",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2327/PD2327:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2337",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2337/PD2337:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2344",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2344/PD2344:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2353",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2353/PD2353:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2354",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2354/PD2354:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2354M",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2354M/PD2354M:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2357",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2357/PD2357:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2361",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2361/PD2361:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2362",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2362/PD2362:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2364",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2364/PD2364:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2366",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2366/PD2366:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2405",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2405/PD2405:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2410",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2410/PD2410:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2415",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2415/PD2415:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2417",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2417/PD2417:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2419",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2419/PD2419:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2426",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2426/PD2426:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2429",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2429/PD2429:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2430",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2430/PD2430:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2435",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2435/PD2435:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2436",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2436/PD2436:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2442",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2442/PD2442:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2443",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2443/PD2443:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2444",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2444/PD2444:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2445",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2445/PD2445:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2452",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2452/PD2452:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2454",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2454/PD2454:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2456",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2456/PD2456:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2464",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2464/PD2464:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2465",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2465/PD2465:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2502",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2502/PD2502:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2506",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2506/PD2506:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2509",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2509/PD2509:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "PD2516",
+    "Version": "16",
+    "Fingerprint": "vivo/PD2516/PD2516:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2303",
+    "Version": "16",
+    "Fingerprint": "vivo/V2303/V2303:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2308",
+    "Version": "16",
+    "Fingerprint": "vivo/V2308/V2308:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2318",
+    "Version": "16",
+    "Fingerprint": "vivo/V2318/V2318:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2319",
+    "Version": "16",
+    "Fingerprint": "vivo/V2319/V2319:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2327",
+    "Version": "16",
+    "Fingerprint": "vivo/V2327/V2327:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2330",
+    "Version": "16",
+    "Fingerprint": "vivo/V2330/V2330:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2333",
+    "Version": "16",
+    "Fingerprint": "vivo/V2333/V2333:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2334",
+    "Version": "16",
+    "Fingerprint": "vivo/V2334/V2334:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2338",
+    "Version": "16",
+    "Fingerprint": "vivo/V2338/V2338:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2339",
+    "Version": "16",
+    "Fingerprint": "vivo/V2339/V2339:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2342",
+    "Version": "16",
+    "Fingerprint": "vivo/V2342/V2342:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2343",
+    "Version": "16",
+    "Fingerprint": "vivo/V2343/V2343:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2344",
+    "Version": "16",
+    "Fingerprint": "vivo/V2344/V2344:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2346",
+    "Version": "16",
+    "Fingerprint": "vivo/V2346/V2346:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2347",
+    "Version": "16",
+    "Fingerprint": "vivo/V2347/V2347:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2348",
+    "Version": "16",
+    "Fingerprint": "vivo/V2348/V2348:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2352",
+    "Version": "16",
+    "Fingerprint": "vivo/V2352/V2352:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2355",
+    "Version": "16",
+    "Fingerprint": "vivo/V2355/V2355:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2403",
+    "Version": "16",
+    "Fingerprint": "vivo/V2403/V2403:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2404",
+    "Version": "16",
+    "Fingerprint": "vivo/V2404/V2404:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2413",
+    "Version": "16",
+    "Fingerprint": "vivo/V2413/V2413:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2415",
+    "Version": "16",
+    "Fingerprint": "vivo/V2415/V2415:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2418",
+    "Version": "16",
+    "Fingerprint": "vivo/V2418/V2418:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2419",
+    "Version": "16",
+    "Fingerprint": "vivo/V2419/V2419:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2420",
+    "Version": "16",
+    "Fingerprint": "vivo/V2420/V2420:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2422",
+    "Version": "16",
+    "Fingerprint": "vivo/V2422/V2422:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2427",
+    "Version": "16",
+    "Fingerprint": "vivo/V2427/V2427:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2428",
+    "Version": "16",
+    "Fingerprint": "vivo/V2428/V2428:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2429",
+    "Version": "16",
+    "Fingerprint": "vivo/V2429/V2429:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2430",
+    "Version": "16",
+    "Fingerprint": "vivo/V2430/V2430:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2434",
+    "Version": "16",
+    "Fingerprint": "vivo/V2434/V2434:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2434L",
+    "Version": "16",
+    "Fingerprint": "vivo/V2434L/V2434L:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2436",
+    "Version": "16",
+    "Fingerprint": "vivo/V2436/V2436:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2437",
+    "Version": "16",
+    "Fingerprint": "vivo/V2437/V2437:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2439",
+    "Version": "16",
+    "Fingerprint": "vivo/V2439/V2439:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2440",
+    "Version": "16",
+    "Fingerprint": "vivo/V2440/V2440:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2441",
+    "Version": "16",
+    "Fingerprint": "vivo/V2441/V2441:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2446",
+    "Version": "16",
+    "Fingerprint": "vivo/V2446/V2446:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2455",
+    "Version": "16",
+    "Fingerprint": "vivo/V2455/V2455:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2502",
+    "Version": "16",
+    "Fingerprint": "vivo/V2502/V2502:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2503",
+    "Version": "16",
+    "Fingerprint": "vivo/V2503/V2503:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2504",
+    "Version": "16",
+    "Fingerprint": "vivo/V2504/V2504:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2506",
+    "Version": "16",
+    "Fingerprint": "vivo/V2506/V2506:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2511",
+    "Version": "16",
+    "Fingerprint": "vivo/V2511/V2511:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2513",
+    "Version": "16",
+    "Fingerprint": "vivo/V2513/V2513:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2514",
+    "Version": "16",
+    "Fingerprint": "vivo/V2514/V2514:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2515",
+    "Version": "16",
+    "Fingerprint": "vivo/V2515/V2515:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2520",
+    "Version": "16",
+    "Fingerprint": "vivo/V2520/V2520:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2521",
+    "Version": "16",
+    "Fingerprint": "vivo/V2521/V2521:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2521L",
+    "Version": "16",
+    "Fingerprint": "vivo/V2521L/V2521L:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "vivo",
+    "Device": "V2529",
+    "Version": "16",
+    "Fingerprint": "vivo/V2529/V2529:16/BP22.250325.007/compiler12312047:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "agate",
+    "Version": "14",
+    "Fingerprint": "xiaomi/agate_global/agate:14/UP1A.231005.007/OS1.0.9.0.UKWMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "aristotle",
+    "Version": "15",
+    "Fingerprint": "xiaomi/aristotle_global/aristotle:15/AP3A.240905.015.A2/OS2.0.3.0.VMFMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "aurora",
+    "Version": "15",
+    "Fingerprint": "xiaomi/aurora_global/aurora:15/AP3A.240905.015.A2/OS2.0.8.0.VNACNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "babylon",
+    "Version": "15",
+    "Fingerprint": "xiaomi/babylon/babylon:15/AP3A.240905.015.A2/OS2.0.5.0.VMVCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "bixi",
+    "Version": "15",
+    "Fingerprint": "xiaomi/bixi/bixi:15/AP3A.240905.015.A2/OS2.0.213.VOHCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "chenfeng",
+    "Version": "15",
+    "Fingerprint": "xiaomi/chenfeng/chenfeng:15/AP3A.240905.015.A2/OS2.0.5.0.VNJCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "corot",
+    "Version": "15",
+    "Fingerprint": "xiaomi/corot_global/corot:15/AP3A.240905.015.A2/OS2.0.9.0.VMLEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "cupid",
+    "Version": "15",
+    "Fingerprint": "xiaomi/cupid_global/cupid:15/AP3A.240905.015.A2/OS2.0.9.0.VLCCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "dada",
+    "Version": "16",
+    "Fingerprint": "xiaomi/dada_global/dada:16/BP22.250325.007/OS2.0.227.0.WOCMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "dagu",
+    "Version": "14",
+    "Fingerprint": "xiaomi/dagu/dagu:14/UP1A.231005.007/OS2.0.9.0.ULZCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "daumier",
+    "Version": "14",
+    "Fingerprint": "xiaomi/daumier/daumier:14/UP1A.231005.007/OS2.0.6.0.ULGCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "degas",
+    "Version": "15",
+    "Fingerprint": "xiaomi/degas_global/degas:15/AP3A.240905.015.A2/OS2.0.5.0.VNEEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "dijun",
+    "Version": "15",
+    "Fingerprint": "xiaomi/dijun/dijun:15/AP3A.240905.015.A2/OS2.0.208.0.VODCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "diting",
+    "Version": "15",
+    "Fingerprint": "xiaomi/diting_global/diting:15/AP3A.240905.015.A2/OS2.0.7.0.VLFCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "elish",
+    "Version": "13",
+    "Fingerprint": "xiaomi/elish/elish:13/TP1A.220624.014/OS1.0.2.0.TKYCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "enuma",
+    "Version": "13",
+    "Fingerprint": "xiaomi/enuma/enuma:13/TP1A.220624.014/OS1.0.3.0.TKZCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "fuxi",
+    "Version": "15",
+    "Fingerprint": "xiaomi/fuxi_global/fuxi:15/AP3A.240905.015.A2/OS2.0.3.0.VMCEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "goku",
+    "Version": "15",
+    "Fingerprint": "xiaomi/goku/goku:15/AP3A.240905.015.A2/OS2.0.8.0.VNVCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "goya",
+    "Version": "15",
+    "Fingerprint": "xiaomi/goya_global/goya:15/AP3A.240905.015.A2/OS2.0.209.0.VOEEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "haotian",
+    "Version": "15",
+    "Fingerprint": "xiaomi/haotian/haotian:15/AP3A.240905.015.A2/OS2.0.28.0.VOBCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "haydn",
+    "Version": "14",
+    "Fingerprint": "xiaomi/haydn_global/haydn:14/UP1A.231005.007/OS1.0.9.0.UKKMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "houji",
+    "Version": "15",
+    "Fingerprint": "xiaomi/houji_global/houji:15/AP3A.240905.015.A2/OS2.0.8.0.VNCMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "ishtar",
+    "Version": "15",
+    "Fingerprint": "xiaomi/ishtar_global/ishtar:15/AP3A.240905.015.A2/OS2.0.3.0.VMACNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "jinghu",
+    "Version": "15",
+    "Fingerprint": "xiaomi/jinghu/jinghu:15/AP3A.240905.015.A2/OS2.0.213.VOHCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "klimt",
+    "Version": "15",
+    "Fingerprint": "xiaomi/klimt_global/klimt:15/AP3A.240905.015.A2/OS2.0.209.0.VOSEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "lisa",
+    "Version": "14",
+    "Fingerprint": "xiaomi/lisa_global/lisa:14/UP1A.231005.007/OS2.0.8.0.UKOMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "liuqin",
+    "Version": "15",
+    "Fingerprint": "xiaomi/liuqin/liuqin:15/AP3A.240905.015.A2/OS2.0.9.0.VMYCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "mayfly",
+    "Version": "15",
+    "Fingerprint": "xiaomi/mayfly/mayfly:15/AP3A.240905.015.A2/OS2.0.7.0.VLTCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "mona",
+    "Version": "14",
+    "Fingerprint": "xiaomi/mona/mona:14/UP1A.231005.007/OS1.0.7.0.ULPCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "muyu",
+    "Version": "15",
+    "Fingerprint": "xiaomi/muyu_global/muyu:15/AP3A.240905.015.A2/OS2.0.8.0.VOYCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "nabu",
+    "Version": "13",
+    "Fingerprint": "xiaomi/nabu_global/nabu:13/TP1A.220624.014/OS1.0.9.0.TKXINXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "nuwa",
+    "Version": "15",
+    "Fingerprint": "xiaomi/nuwa_global/nuwa:15/AP3A.240905.015.A2/OS2.0.3.0.VMBCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "odin",
+    "Version": "14",
+    "Fingerprint": "xiaomi/odin/odin:14/UP1A.231005.007/OS1.0.4.0.UKMCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "pipa",
+    "Version": "14",
+    "Fingerprint": "xiaomi/pipa_global/pipa:14/UP1A.231005.007/OS2.0.9.0.UMZCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "plato",
+    "Version": "15",
+    "Fingerprint": "xiaomi/plato_global/plato:15/AP3A.240905.015.A2/OS2.0.7.0.VLQEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "psyche",
+    "Version": "13",
+    "Fingerprint": "xiaomi/psyche_global/psyche:13/TP1A.220624.014/OS1.0.9.0.TLDCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "rothko",
+    "Version": "16",
+    "Fingerprint": "xiaomi/rothko_global/rothko:16/BP22.250325.007/OS2.0.225.0.WNNEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "ruyi",
+    "Version": "15",
+    "Fingerprint": "xiaomi/ruyi_global/ruyi:15/AP3A.240905.015.A2/OS2.0.5.0.VNICNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "sheng",
+    "Version": "15",
+    "Fingerprint": "xiaomi/sheng/sheng:15/AP3A.240905.015.A2/OS2.0.7.0.VNXMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "shennong",
+    "Version": "15",
+    "Fingerprint": "xiaomi/shennong/shennong:15/AP3A.240905.015.A2/OS2.0.7.0.VNBCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "shennongt",
+    "Version": "15",
+    "Fingerprint": "xiaomi/shennongt/shennongt:15/AP3A.240905.015.A2/OS2.0.7.0.VNBCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "star",
+    "Version": "14",
+    "Fingerprint": "xiaomi/star_global/star:14/UP1A.231005.007/OS2.0.1.0.UKACNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "taoyao",
+    "Version": "14",
+    "Fingerprint": "xiaomi/taoyao_global/taoyao:14/UP1A.231005.007/OS1.0.9.0.ULIMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "thor",
+    "Version": "15",
+    "Fingerprint": "xiaomi/thor/thor:15/AP3A.240905.015.A2/OS2.0.4.0.VLACNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "thyme",
+    "Version": "13",
+    "Fingerprint": "xiaomi/thyme/thyme:13/TP1A.220624.014/OS1.0.4.0.TGACNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "turner",
+    "Version": "15",
+    "Fingerprint": "xiaomi/turner_global/turner:15/AP3A.240905.015.A2/OS2.0.218.0.VAOCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "uke",
+    "Version": "15",
+    "Fingerprint": "xiaomi/uke_global/uke:15/AP3A.240905.015.A2/OS2.0.9.0.VOZINXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "unicorn",
+    "Version": "15",
+    "Fingerprint": "xiaomi/unicorn/unicorn:15/AP3A.240905.015.A2/OS2.0.8.0.VLECNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "venus",
+    "Version": "14",
+    "Fingerprint": "xiaomi/venus_global/venus:14/UP1A.231005.007/OS2.0.2.0.UKBMIXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "vili",
+    "Version": "14",
+    "Fingerprint": "xiaomi/vili_global/vili:14/UP1A.231005.007/OS1.0.9.0.UKDEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "violin",
+    "Version": "15",
+    "Fingerprint": "xiaomi/violin/violin:15/AP3A.240905.015.A2/OS2.0.214.VOTCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "xuanyuan",
+    "Version": "15",
+    "Fingerprint": "xiaomi/xuanyuan_global/xuanyuan:15/AP3A.240905.015.A2/OS2.0.8.0.VOAEUXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "yudi",
+    "Version": "15",
+    "Fingerprint": "xiaomi/yudi/yudi:15/AP3A.240905.015.A2/OS2.0.8.0.VMHCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "yuechu",
+    "Version": "15",
+    "Fingerprint": "xiaomi/yuechu/yuechu:15/AP3A.240905.015.A2/OS2.0.6.0.VMICNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "zeus",
+    "Version": "15",
+    "Fingerprint": "xiaomi/zeus_global/zeus:15/AP3A.240905.015.A2/OS2.0.9.0.VLBCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "zijin",
+    "Version": "14",
+    "Fingerprint": "xiaomi/zijin/zijin:14/UP1A.231005.007/OS1.0.7.0.ULPCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "ziyi",
+    "Version": "15",
+    "Fingerprint": "xiaomi/ziyi_global/ziyi:15/AP3A.240905.015.A2/OS2.0.9.0.VLLCNXM:user/release-keys"
+  },
+  {
+    "Brand": "xiaomi",
+    "Device": "zizhan",
+    "Version": "15",
+    "Fingerprint": "xiaomi/zizhan/zizhan:15/AP3A.240905.015.A2/OS2.0.8.0.VLRCNXM:user/release-keys"
+  }
+]
